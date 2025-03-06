@@ -1,0 +1,121 @@
+header {
+  padding: 25px 0;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+}
+header .container {
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 155px;
+  width: 100%;
+}
+
+.nav-menu {
+  margin: 0 auto;
+}
+
+.menu {
+  text-transform: uppercase;
+  display: flex;
+  align-items: flex-start;
+}
+.menu li {
+  margin: 0 24px 0 0;
+}
+.menu li:last-child {
+  margin: 0;
+}
+.menu li a {
+  color: #323232;
+}
+.menu li a:hover, .menu li a:focus {
+  color: #fff;
+  background: #546b7b;
+}
+.menu li a.active {
+  color: #546b7b;
+  background: transparent;
+}
+
+.header-contacts {
+  position: relative;
+  z-index: 1;
+  padding: 0 0 0 42px;
+}
+.header-contacts::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #546b7b;
+  border-radius: 50%;
+  background: url("../img/phone-icon2.png") no-repeat center;
+  background-size: 21px;
+}
+.header-contacts a {
+  color: #323232;
+}
+.header-contacts a:hover {
+  color: #546b7b;
+}
+
+.btn-burger {
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 3;
+  display: none;
+}
+
+.fixed-messangers {
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.fixed-messanger-btn {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fixed-messanger-btn:hover {
+  opacity: 0.8;
+}
+
+.phone-btn {
+  background: #6f91a9;
+  border-radius: 3px 0 0 0;
+}
+
+.whatsapp-btn {
+  background: #25d366;
+}
+
+.tg-btn {
+  background: #1c8adb;
+  border-radius: 0 0 0 3px;
+}
+
+.fixed-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  max-width: 100px;
+  width: 100%;
+}

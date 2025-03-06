@@ -1,0 +1,143 @@
+.category-column {
+  max-width: 450px;
+  width: 100%;
+  margin: 0 0 0 auto;
+}
+
+.category-link {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 5px;
+  background: #000;
+  mix-blend-mode: multiply;
+  overflow: hidden;
+}
+.category-link:last-child {
+  margin: 0;
+}
+.category-link:hover img {
+  transform: scale(1.2);
+}
+.category-link span {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  display: block;
+  z-index: 2;
+}
+.category-link img {
+  width: 100%;
+  transition: 1s ease;
+}
+
+.callback-section {
+  background: url("../img/decor-bg2.jpg") no-repeat center;
+  background-size: cover;
+  padding: 60px 0 110px;
+}
+
+.callback-wrapper {
+  margin: 70px auto 0;
+  padding: 30px 35px 50px;
+  width: 100%;
+  max-width: 810px;
+  border: 2px solid #546b7b;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+.callback-wrapper__bg {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  right: -170px;
+}
+.callback-wrapper h3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 auto 65px;
+  max-width: 270px;
+  width: 100%;
+}
+.callback-wrapper .box-text {
+  max-width: 250px;
+}
+.callback-wrapper .btn-group-messengers {
+  margin: 85px 0 0;
+  width: 100%;
+  max-width: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.callback-wrapper .btn-messenger {
+  flex: 1;
+  margin: 0 28px 0 0;
+}
+.callback-wrapper .btn-messenger:last-child {
+  margin: 0;
+}
+
+.advantages {
+  color: #fff;
+  background: #6f91a9;
+  padding: 35px 0 50px;
+}
+
+.advantages-box {
+  flex: 1;
+}
+.advantages-box .box-text {
+  font-size: 12px;
+  max-width: 225px;
+}
+.advantages-box h3 {
+  margin: 0 0 10px;
+}
+
+.about-section {
+  padding: 100px 0 65px;
+  background: url("../img/decor-bg1.jpg") no-repeat center;
+  background-size: cover;
+}
+.about-section .container {
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.about-section-box {
+  width: 50%;
+  padding: 0 100px 0 0;
+  border-right: 1px solid #6f91a9;
+}
+.about-section-box h3 {
+  text-transform: uppercase;
+}
+.about-section-box:last-child {
+  padding: 0 0 0 100px;
+  border: none;
+}
+.about-section-box .box-text {
+  margin: 0 0 55px;
+}
+.about-section-box .box-text:last-child {
+  margin: 0;
+}
+.about-section-box ul {
+  margin: 0 0 30px;
+}
+.about-section-box ul:last-child {
+  margin: 0;
+}
