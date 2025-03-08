@@ -1,3 +1,170 @@
+.home {
+  background: url("../img/home-bg.jpg") no-repeat center;
+  background-size: cover;
+  padding: 30px 45px 65px;
+}
+
+.home-slider {
+  background: url("../img/home-slider-bg.jpg") no-repeat center;
+  background-size: cover;
+  color: #fff;
+  padding: 50px 0 40px;
+}
+
+.about-products {
+  background: url("../img/decor-bg2.jpg") no-repeat center;
+  background-size: cover;
+  padding: 140px 0 125px;
+}
+.about-products .box-text {
+  max-width: 330px;
+  font-weight: 500;
+}
+
+.about-products-categories {
+  margin: 0 0 0 auto;
+  max-width: 990px;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-products-category {
+  position: relative;
+  z-index: 1;
+  width: calc(50% - 15px);
+  min-height: 245px;
+  margin: 0 0 80px;
+  border: 1px solid #6f91a9;
+  color: #fff;
+  background: #546b7b;
+  font-size: 12px;
+  padding: 30px;
+}
+.about-products-category:hover {
+  background: #6f91a9;
+  color: #fff;
+}
+.about-products-category:hover .about-products-category__img {
+  transform: translate(0, -50%) scale(1.15);
+}
+.about-products-category span {
+  display: block;
+}
+.about-products-category__img {
+  position: absolute;
+  z-index: -1;
+  transition: 1s ease;
+  right: 20px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.about-products-category__title {
+  font-weight: bold;
+  display: block;
+  font-size: 22px;
+  width: 100%;
+  max-width: 270px;
+}
+.about-products-category__text {
+  margin: 20px 0 0;
+}
+.about-products-category:nth-child(2), .about-products-category:nth-child(3) {
+  background: #fff;
+  color: #6f91a9;
+}
+.about-products-category:nth-child(2):hover, .about-products-category:nth-child(3):hover {
+  color: #6f91a9;
+  background: #fff;
+}
+.about-products-category:nth-child(3) .about-products-category__img {
+  transform: none;
+  bottom: -16px;
+  top: auto;
+  right: -36px;
+}
+.about-products-category:nth-child(3):hover .about-products-category__img {
+  transform: scale(1.15);
+}
+
+.product-card {
+  width: 100%;
+  max-width: 292px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid #546b7b;
+}
+.product-card__img {
+  width: 100%;
+  height: 292px;
+  padding: 5px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-card__body {
+  height: calc(100% - 292px);
+  padding: 10px 10px 15px;
+}
+.product-card__name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #323232;
+  width: 100%;
+}
+.product-card__name:hover {
+  color: #546b7b;
+}
+.product-card .price {
+  margin: 15px auto 10px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.product-card__info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+}
+.product-card .icon-info {
+  margin: 0 24px 0 0;
+}
+.product-card .icon-info:last-child {
+  margin: 0;
+}
+
+.product-slider {
+  width: 100%;
+  max-width: 1750px;
+  margin: 0 auto;
+  border-right: 1px solid #546b7b;
+}
+.product-slider .product-card {
+  border-right: none;
+}
+
+.brands-section .title-wrapper {
+  max-width: 930px;
+  width: 100%;
+}
+.brands-section .title-wrapper h2 {
+  text-align: left;
+  margin: 0;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-transform: uppercase;
+}
+
+.brands-section-wrapper {
+  max-width: 930px;
+  width: 100%;
+}
+
 .category-column {
   max-width: 450px;
   width: 100%;
@@ -6,6 +173,7 @@
 
 .category-link {
   width: 100%;
+  height: 272px;
   position: relative;
   z-index: 1;
   color: #fff;
@@ -37,6 +205,29 @@
 .category-link img {
   width: 100%;
   transition: 1s ease;
+}
+
+.brands-slider {
+  margin: 0 -5px;
+}
+.brands-slider .slick-slide {
+  padding: 0 2.5px;
+}
+
+.brand-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 10px;
+  width: 226px;
+  height: 133px;
+  background: #fff;
+  border: 1px solid #546b7b;
+  margin: 0 0 5px;
+}
+.brand-item:last-child {
+  margin: 0;
 }
 
 .callback-section {
@@ -93,7 +284,7 @@
 .advantages {
   color: #fff;
   background: #6f91a9;
-  padding: 35px 0 50px;
+  padding: 35px 20px 50px;
 }
 
 .advantages-box {
@@ -105,6 +296,7 @@
 }
 .advantages-box h3 {
   margin: 0 0 10px;
+  color: #fff;
 }
 
 .about-section {

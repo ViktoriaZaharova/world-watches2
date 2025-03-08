@@ -233,7 +233,7 @@ a.color-black:hover {
   color: #546b7b;
 }
 
-h2 {
+.h1 {
   width: 100%;
   font-size: 36px;
   font-weight: 500;
@@ -244,11 +244,50 @@ h2 {
   font-family: "GothamPro", sans-serif;
 }
 
-h3 {
+h2 {
+  width: 100%;
+  font-size: 22px;
+  font-weight: 600;
+  width: 100%;
+  margin: 0 0 30px;
+  color: #323232;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+h3, .h3 {
   font-size: 22px;
   font-weight: 600;
   width: 100%;
   margin: 0 0 20px;
+  color: #323232;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+}
+
+.box-text p {
+  margin: 0 0 20px;
+}
+.box-text p:last-child {
+  margin: 0;
+}
+.box-text .link-page {
+  margin: 30px 0 0;
+}
+
+.link-page {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  color: #546b7b;
+}
+.link-page:hover {
+  color: #6f91a9;
+}
+.link-page img {
+  margin: 0 0 0 18px;
 }
 
 .subtitle {
@@ -292,6 +331,55 @@ h3 {
   min-width: 23px;
   margin: 0 5px 0 0;
   background: url("../img/decor-list.png") no-repeat center;
+  background-size: 100%;
+}
+
+.title-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 0 25px;
+}
+.title-wrapper h3, .title-wrapper .h3, .title-wrapper h2 {
+  margin: 0;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.title-wrapper .slider-nav {
+  margin: 0 0 0 auto;
+}
+
+.slider-nav {
+  display: flex;
+  align-items: center;
+}
+.slider-nav .slick-arrow {
+  margin: 0 15px 0 0;
+}
+.slider-nav .slick-arrow:last-child {
+  margin: 0;
+}
+
+.slick-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  opacity: 1;
+  cursor: pointer;
+  z-index: 1;
+  width: 88px;
+  height: 6px;
+}
+
+.slick-prev {
+  background: url("../img/arrow-left.png") no-repeat center;
+  background-size: 100%;
+}
+
+.slick-next {
+  background: url("../img/arrow-right.png") no-repeat center;
   background-size: 100%;
 }
 
