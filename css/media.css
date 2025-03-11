@@ -1,2 +1,99 @@
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
+@media only screen and (max-width: 1400px) {
+  .qr-box {
+    font-size: 16px;
+    margin: 0 20px 0 0;
+  }
+  .qr-box:last-child {
+    margin: 0;
+  }
+  .qr-box p {
+    margin: 0 0 15px;
+  }
+  .qr-box img {
+    max-width: 150px;
+  }
+  .footer-menu {
+    margin: 35px auto 0;
+  }
+  .footer-top {
+    padding: 30px 0;
+  }
+  .btn-group-messengers {
+    max-width: 200px;
+  }
+  .footer-menu {
+    font-size: 14px;
+  }
+  .footer-menu-list {
+    min-width: 245px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .footer-menu {
+    width: 100%;
+    order: 1;
+    margin: 20px auto 0;
+  }
+}
+@media only screen and (max-width: 992px) {
+  footer .box-right {
+    max-width: 330px;
+  }
+  footer .logo {
+    max-width: 140px;
+  }
+  .footer-bottom {
+    padding: 20px 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  footer .box-right {
+    max-width: none;
+    text-align: left;
+    order: -1;
+    margin: 0 0 15px;
+  }
+  footer .logo {
+    margin: 0 0 10px;
+  }
+  footer .address {
+    margin: 0 0 15px;
+  }
+  footer .link {
+    margin: 15px 0 0;
+  }
+  .footer-menu-list {
+    min-width: auto;
+    width: 100%;
+    margin: 0 0 5px;
+  }
+  .footer-menu-list:last-child {
+    margin: 0;
+  }
+  .footer-menu {
+    flex-wrap: wrap;
+  }
+  .qr-wrapper {
+    width: 100%;
+  }
+  .qr-box {
+    flex: 1;
+  }
+  .btn-group-messengers {
+    width: 100%;
+    order: 1;
+    margin: 15px auto 0;
+    max-width: none;
+    display: flex;
+    align-items: flex-start;
+  }
+  .btn-group-messengers .btn-messenger {
+    flex: 1;
+    margin: 0 10px 0 0;
+  }
+  .btn-group-messengers .btn-messenger:last-child {
+    margin: 0;
+  }
+}

@@ -128,10 +128,34 @@ button, .btn
   text-align: center
   padding: 10px 45px
   font-size: 16px
-  font-weight: bold
-  height: 46px
-  border-radius: 10px
+  font-weight: normal
+  height: 44px
+  border-radius: 0
   transition: 0.3s ease
+  width: 100%
+  .btn-arrow
+    margin-left: 36px
+
+.btn-xl
+  height: 87px
+  font-size: 24px  
+
+.btn-accent
+  color: #fff
+  background: $blue
+  &:hover, &:focus, &:active
+    background: $blue-light
+    color: #fff
+
+.btn-border
+  border: 1px solid #fff
+  color: #fff
+  
+  &:hover, &:focus, &:active
+    background: #fff
+    color: $blue-light
+    .btn-arrow
+      filter: invert(1)
 
 .svg-icon
   display: inline-block
@@ -299,6 +323,31 @@ h3, .h3
 .slick-next
   background: url('../img/arrow-right.png') no-repeat center
   background-size: 100%
+
+.slick-dots
+  position: relative
+  z-index: 1
+  display: flex
+  align-items: center
+  justify-content: center
+  margin: 0 
+  opacity: 1
+  padding: 0
+  list-style: none
+  li
+    cursor: pointer
+    transition: .3s ease
+    width: 9px
+    height: 4px
+    background: $blue
+    border-radius: 2px
+    margin: 0 6px 0 0
+    &:last-child
+      margin: 0
+    &.slick-active
+      width: 44px  
+    button
+      display: none  
 
 //checkbox my
 .label-checkbox

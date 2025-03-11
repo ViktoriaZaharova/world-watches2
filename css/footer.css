@@ -1,6 +1,6 @@
 footer .logo {
-  max-width: 204px;
-  margin: 0 0 15px auto;
+  max-width: 200px;
+  margin: 0 0 10px auto;
 }
 footer .address {
   margin: 0 0 20px;
@@ -92,4 +92,7 @@ footer .link {
 
 .box-right {
   text-align: right;
+}
+.box-right .box-text p {
+  margin: 0;
 }
