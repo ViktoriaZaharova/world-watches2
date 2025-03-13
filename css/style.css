@@ -21,6 +21,13 @@
   src: url("../fonts/Montserrat/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat/Montserrat-SemiBold.woff") format("woff"), url("../fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
 }
 @font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/Montserrat/Montserrat-Bold.eot");
+  src: url("../fonts/Montserrat/Montserrat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+}
+@font-face {
   font-family: "GothamPro";
   font-weight: 500;
   font-style: normal;
@@ -272,10 +279,18 @@ ul, ol {
   padding: 0 0 0 100px;
 }
 
+.font-700 {
+  font-weight: bold;
+}
+
 a.color-black {
   color: #323232;
 }
 a.color-black:hover {
+  color: #546b7b;
+}
+
+.color-blue {
   color: #546b7b;
 }
 
@@ -320,6 +335,15 @@ h3, .h3 {
   margin: 0 0 20px;
 }
 .box-text p:last-child {
+  margin: 0;
+}
+.box-text ul {
+  margin: 20px 0;
+}
+.box-text ul li {
+  margin: 0 0 20px;
+}
+.box-text ul li:last-child {
   margin: 0;
 }
 .box-text .link-page {

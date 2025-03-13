@@ -138,7 +138,7 @@ button, .btn
 
 .btn-xl
   height: 87px
-  font-size: 24px  
+  font-size: 24px
 
 .btn-accent
   color: #fff
@@ -150,7 +150,7 @@ button, .btn
 .btn-border
   border: 1px solid #fff
   color: #fff
-  
+
   &:hover, &:focus, &:active
     background: #fff
     color: $blue-light
@@ -194,12 +194,11 @@ ul, ol
   width: 25%
   padding: 0 15px
 
-
 .w-100
   width: 100%
 
 .mb-30
-  margin-bottom: 30px 
+  margin-bottom: 30px
 
 .m-100
   margin: 100px 0
@@ -208,10 +207,16 @@ ul, ol
   width: 100%
   padding: 0 0 0 100px
 
+.font-700
+  font-weight: bold
+
 a.color-black
   color: $grey
   &:hover
     color: $blue
+
+.color-blue
+  color: $blue
 
 .h1, h1
   width: 100%
@@ -224,10 +229,10 @@ a.color-black
   font-family: $title-font
 
 h1
-  color: $grey  
+  color: $grey
 
 h2
-  width: 100%  
+  width: 100%
   font-size: 22px
   font-weight: 600
   width: 100%
@@ -251,8 +256,14 @@ h3, .h3
     margin: 0 0 20px
     &:last-child
       margin: 0
+  ul
+    margin: 20px 0
+    li
+      margin: 0 0 20px
+      &:last-child
+        margin: 0
   .link-page
-    margin: 30px 0 0    
+    margin: 30px 0 0
 
 .link-page
   display: flex
@@ -263,8 +274,7 @@ h3, .h3
   &:hover
     color: $blue-light
   img
-    margin: 0 0 0 18px  
-          
+    margin: 0 0 0 18px
 
 .subtitle
   width: 100%
@@ -347,7 +357,7 @@ h3, .h3
   display: flex
   align-items: center
   justify-content: center
-  margin: 0 
+  margin: 0
   opacity: 1
   padding: 0
   list-style: none
@@ -362,12 +372,12 @@ h3, .h3
     &:last-child
       margin: 0
     &.slick-active
-      width: 44px  
+      width: 44px
     button
       display: none
 
 .page
-  padding: 40px 0 70px        
+  padding: 40px 0 70px
   h1
     font-size: 22px
     font-weight: 600
@@ -393,8 +403,7 @@ h3, .h3
       &::after
         content: '>'
         display: inline-block
-        margin: 0 6px  
-
+        margin: 0 6px
 
 //checkbox my
 .label-checkbox
@@ -423,4 +432,3 @@ h3, .h3
   background: #fff url("../img/check-black.svg") no-repeat center
   background-size: 8px
 //checkbox my end
-

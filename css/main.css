@@ -394,6 +394,13 @@
 .advantages-box {
   flex: 1;
 }
+.advantages-box__icon {
+  margin: 0 auto 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 39px;
+}
 .advantages-box .box-text {
   font-size: 12px;
   max-width: 225px;
@@ -401,6 +408,13 @@
 .advantages-box h3 {
   margin: 0 0 10px;
   color: #fff;
+}
+
+.advantages2 .advantages-box {
+  text-align: center;
+}
+.advantages2 .advantages-box .box-text {
+  margin: 0 auto;
 }
 
 .about-section {
@@ -516,6 +530,12 @@
   max-width: 558px;
 }
 
+.callback-section5 .callback-wrapper__bg {
+  right: 104px;
+  bottom: -334px;
+  max-width: 338px;
+}
+
 .news-card {
   width: 100%;
   font-size: 12px;
@@ -550,4 +570,10 @@
 }
 .news-card .link:hover {
   color: #6f91a9;
+}
+
+.page-article .box-text img {
+  display: inline-block;
+  float: right;
+  margin: -70px 0 0;
 }

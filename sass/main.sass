@@ -333,12 +333,22 @@
 
 .advantages-box
   flex: 1
+  &__icon
+    margin: 0 auto 12px
+    @include d-flex
+    height: 39px
   .box-text
     font-size: 12px
     max-width: 225px
   h3
     margin: 0 0 10px
     color: #fff
+
+.advantages2
+  .advantages-box
+    text-align: center
+    .box-text
+      margin: 0 auto
 
 // about-section
 .about-section
@@ -435,6 +445,12 @@
     bottom: 0
     max-width: 558px  
 
+.callback-section5
+  .callback-wrapper__bg
+    right: 104px
+    bottom: -334px
+    max-width: 338px      
+
 // news page
 .news-card
   width: 100%
@@ -462,3 +478,12 @@
     color: $blue
     &:hover
       color: $blue-light       
+
+// article page
+.page-article
+  .box-text
+    img
+      display: inline-block 
+      float: right
+      margin: -70px 0 0
+  
