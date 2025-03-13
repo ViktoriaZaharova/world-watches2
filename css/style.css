@@ -263,7 +263,7 @@ a.color-black:hover {
   color: #546b7b;
 }
 
-.h1 {
+.h1, h1 {
   width: 100%;
   font-size: 36px;
   font-weight: 500;
@@ -272,6 +272,10 @@ a.color-black:hover {
   text-align: center;
   text-transform: uppercase;
   font-family: "GothamPro", sans-serif;
+}
+
+h1 {
+  color: #323232;
 }
 
 h2 {
