@@ -300,6 +300,21 @@
   .page {
     padding: 40px 0;
   }
+  .politics-wrapper {
+    padding: 30px;
+  }
+  .politics-wrapper h2 {
+    margin: 0 0 30px;
+  }
+  .politics-wrapper .box-text {
+    margin: 0 0 30px;
+  }
+  .politics-wrapper .box-text:last-child {
+    margin: 0;
+  }
+  .callback-section3 .callback-wrapper__bg {
+    max-width: 700px;
+  }
 }
 @media only screen and (max-width: 992px) {
   h2 {
@@ -440,7 +455,12 @@
   .callback-section2 .callback-wrapper__bg {
     max-width: 250px;
     right: 0;
-    top: 0;
+    bottom: 0;
+  }
+  .callback-section3 .callback-wrapper__bg {
+    max-width: 500px;
+    bottom: -30px;
+    right: -100px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -505,8 +525,6 @@
   }
   .callback-section2 .callback-wrapper__bg {
     max-width: 180px;
-    top: auto;
-    bottom: 0;
   }
   .callback-section2 .subtitle {
     font-size: 20px;
@@ -519,6 +537,12 @@
   }
   .brand-item {
     height: 120px;
+  }
+  .politics-wrapper {
+    padding: 20px;
+  }
+  .callback-section3 .callback-wrapper__bg {
+    max-width: 400px;
   }
 }
 @media only screen and (max-width: 420px) {
@@ -613,5 +637,9 @@
   }
   .callback-section2 .callback-wrapper__bg {
     max-width: 160px;
+  }
+  .callback-section3 .callback-wrapper__bg {
+    max-width: 240px;
+    right: -40px;
   }
 }

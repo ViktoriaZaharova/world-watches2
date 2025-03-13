@@ -449,8 +449,6 @@
 }
 .callback-section2 .callback-wrapper__bg {
   right: 36px;
-  top: -19px;
-  bottom: auto;
   max-width: 305px;
 }
 
@@ -464,4 +462,55 @@
 .brands-cell .brand-item {
   width: calc(16.66% - 10px);
   margin: 0 0 10px;
+}
+
+.page-politics {
+  padding-bottom: 50px;
+}
+.page-politics h2 {
+  text-transform: none;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 55px;
+}
+.page-politics h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 20px;
+}
+
+.politics-wrapper {
+  width: 100%;
+  background: #f5f5f5;
+  border: 1px solid #546b7b;
+  width: 100%;
+  padding: 70px 75px 90px;
+  box-shadow: 4px 0 16px #bcbcbc;
+}
+.politics-wrapper .box-text {
+  margin: 0 0 60px;
+}
+.politics-wrapper .box-text:last-child {
+  margin: 0;
+}
+.politics-wrapper p {
+  margin: 0 0 20px;
+}
+.politics-wrapper p:last-child {
+  margin: 0;
+}
+.politics-wrapper a {
+  text-decoration: underline;
+  color: #323232;
+  display: inline;
+  font-weight: 600;
+}
+.politics-wrapper a:hover {
+  color: #546b7b;
+}
+
+.callback-section3 .callback-wrapper__bg {
+  right: -162px;
+  bottom: -111px;
+  max-width: 814px;
 }
