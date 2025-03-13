@@ -350,7 +350,37 @@ h3, .h3
     &.slick-active
       width: 44px  
     button
-      display: none  
+      display: none
+
+.page
+  padding: 40px 0 130px        
+  h1
+    font-size: 22px
+    font-weight: 600
+    text-align: left
+
+.nav-breadcrumb
+  width: 100%
+  margin: 0 0 70px
+
+.breadcrumb
+  display: flex
+  align-items: flex-start
+  flex-wrap: wrap
+  width: 100%
+  font-size: 16px
+  li
+    a
+      display: flex
+      align-items: center
+      color: $grey
+      &:hover
+        color: $blue
+      &::after
+        content: '>'
+        display: inline-block
+        margin: 0 6px  
+
 
 //checkbox my
 .label-checkbox
@@ -379,3 +409,4 @@ h3, .h3
   background: #fff url("../img/check-black.svg") no-repeat center
   background-size: 8px
 //checkbox my end
+

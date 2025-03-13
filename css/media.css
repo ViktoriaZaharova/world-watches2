@@ -291,6 +291,15 @@
   .callback-wrapper .btn-group-messengers {
     margin: 50px 0 0;
   }
+  .nav-breadcrumb {
+    margin: 0 0 40px;
+  }
+  .brands-cell .brand-item {
+    width: calc(33.33% - 8px);
+  }
+  .page {
+    padding: 40px 0;
+  }
 }
 @media only screen and (max-width: 992px) {
   h2 {
@@ -428,6 +437,11 @@
     width: 100%;
     margin: 15px 0 0;
   }
+  .callback-section2 .callback-wrapper__bg {
+    max-width: 250px;
+    right: 0;
+    top: 0;
+  }
 }
 @media only screen and (max-width: 576px) {
   .h1, h1 {
@@ -486,6 +500,26 @@
   .callback-wrapper h3 {
     font-size: 20px;
   }
+  .wrapper {
+    padding: 71px 0 0;
+  }
+  .callback-section2 .callback-wrapper__bg {
+    max-width: 180px;
+    top: auto;
+    bottom: 0;
+  }
+  .callback-section2 .subtitle {
+    font-size: 20px;
+  }
+  .callback-section2 .callback-wrapper {
+    margin: 30px auto 0;
+  }
+  .brands-cell .brand-item {
+    width: calc(50% - 8px);
+  }
+  .brand-item {
+    height: 120px;
+  }
 }
 @media only screen and (max-width: 420px) {
   .btn-group-messengers {
@@ -516,7 +550,8 @@
     max-width: none;
   }
   .callback-wrapper .btn-group-messengers {
-    margin: 20px 0 0;
+    margin: 20px auto 0;
+    max-width: 200px;
   }
   .h1, h1 {
     margin: 0 auto 25px;
@@ -566,7 +601,17 @@
   .product-card .icon-info:last-child {
     margin: 0;
   }
+  .qr-box {
+    font-size: 14px;
+    margin: 0 10px 0 0;
+  }
+  .qr-box:last-child {
+    margin: 0;
+  }
   .qr-box img {
     max-width: 100px;
+  }
+  .callback-section2 .callback-wrapper__bg {
+    max-width: 160px;
   }
 }
