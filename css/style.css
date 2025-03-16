@@ -205,6 +205,16 @@ button:hover, button:focus, .btn:hover, .btn:focus {
   color: #fff;
 }
 
+.btn-white {
+  background: #fff;
+  border: 1px solid #546b7b;
+  color: #323232;
+}
+.btn-white:hover, .btn-white:focus, .btn-white:active {
+  background: #546b7b;
+  color: #fff;
+}
+
 .btn-border {
   border: 1px solid #fff;
   color: #fff;
@@ -259,6 +269,11 @@ ul, ol {
 
 .col-25 {
   width: 25%;
+  padding: 0 15px;
+}
+
+.col-50 {
+  width: 50%;
   padding: 0 15px;
 }
 
