@@ -309,6 +309,10 @@ a.color-black:hover {
   color: #546b7b;
 }
 
+.color-white {
+  color: #fff;
+}
+
 .h1, h1 {
   width: 100%;
   font-size: 36px;
@@ -403,6 +407,25 @@ h3, .h3 {
   min-width: 16px;
   margin: 0 5px 0 0;
   background: url("../img/check-icon.png") no-repeat center;
+  background-size: 100%;
+}
+
+.list-checked2 li {
+  margin: 0 0 15px;
+  display: flex;
+  align-items: flex-start;
+}
+.list-checked2 li:last-child {
+  margin: 0;
+}
+.list-checked2 li::before {
+  content: "";
+  display: inline-block;
+  width: 19px;
+  height: 17px;
+  min-width: 19px;
+  margin: 0 7px 0 0;
+  background: url("../img/check-icon2.png") no-repeat center;
   background-size: 100%;
 }
 
@@ -510,6 +533,18 @@ h3, .h3 {
   font-weight: 600;
   text-align: left;
 }
+.page.color-white {
+  color: #fff;
+}
+.page.color-white h1, .page.color-white h3 {
+  color: #fff;
+}
+.page.color-white .breadcrumb a {
+  color: #fff;
+}
+.page.color-white .breadcrumb a:hover {
+  color: #546b7b;
+}
 
 .nav-breadcrumb {
   width: 100%;
@@ -535,6 +570,81 @@ h3, .h3 {
   content: ">";
   display: inline-block;
   margin: 0 6px;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+}
+.table th, .table td {
+  border: 1px solid #546b7b;
+}
+.table td {
+  padding: 15px 30px;
+}
+.table td:nth-child(2) {
+  text-align: center;
+}
+
+thead {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background: #546b7b;
+}
+thead th {
+  padding: 25px;
+}
+
+.panel-heading {
+  width: 100%;
+  border-bottom: 1px solid #546b7b;
+  padding: 20px 0;
+}
+.panel-heading .block-hover {
+  display: none;
+  width: 100%;
+  padding: 40px 0;
+}
+.panel-heading .block-hover .box-text {
+  font-weight: 500;
+  max-width: 810px;
+}
+.panel-heading .block-title {
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.panel-heading .block-title h2, .panel-heading .block-title h3 {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  margin: 0;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.panel-heading .block-title h2::after, .panel-heading .block-title h3::after {
+  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 19px;
+  height: 11px;
+  min-width: 19px;
+  margin: 0 0 0 13px;
+  background: url("../img/arrow-accordion.png") no-repeat center;
+  background-size: 100%;
+}
+.panel-heading.in .block-title h2::after, .panel-heading.in .block-title h3::after {
+  opacity: 0;
+}
+.panel-heading .table {
+  margin: 40px 0 0;
 }
 
 .label-checkbox {

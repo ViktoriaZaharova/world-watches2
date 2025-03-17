@@ -79,3 +79,19 @@ $(document).mouseup(function (e){
       div.removeClass("active"); 
   }
 });
+
+
+// accordeon
+function accordeon() {
+	var panel = $('.panel-heading');
+
+	if (panel.hasClass('in')) {
+		$('.in').find('.block-hover').slideDown();
+	}
+
+	$('.panel-heading .block-title').on('click', function () {
+		$(this).parent().toggleClass('in').find('.block-hover').slideToggle();
+	});
+}
+
+accordeon();

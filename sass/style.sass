@@ -150,7 +150,7 @@ button, .btn
 .btn-white
   background: #fff
   border: 1px solid $blue
-  color: $grey    
+  color: $grey
   &:hover, &:focus, &:active
     background: $blue
     color: #fff
@@ -206,9 +206,6 @@ ul, ol
   width: 50%
   padding: 0 15px
 
-
-      
-
 .w-100
   width: 100%
 
@@ -232,6 +229,9 @@ a.color-black
 
 .color-blue
   color: $blue
+
+.color-white
+  color: #fff
 
 .h1, h1
   width: 100%
@@ -312,6 +312,23 @@ h3, .h3
       min-width: 16px
       margin: 0 5px 0 0
       background: url('../img/check-icon.png') no-repeat center
+      background-size: 100%
+
+.list-checked2
+  li
+    margin: 0 0 15px
+    display: flex
+    align-items: flex-start
+    &:last-child
+      margin: 0
+    &::before
+      content: ''
+      display: inline-block
+      width: 19px
+      height: 17px
+      min-width: 19px
+      margin: 0 7px 0 0
+      background: url('../img/check-icon2.png') no-repeat center
       background-size: 100%
 
 .list-decor
@@ -397,6 +414,15 @@ h3, .h3
     font-size: 22px
     font-weight: 600
     text-align: left
+  &.color-white
+    color: #fff
+    h1, h3
+      color: #fff
+    .breadcrumb
+      a
+        color: #fff
+        &:hover
+          color: $blue
 
 .nav-breadcrumb
   width: 100%
@@ -419,6 +445,68 @@ h3, .h3
         content: '>'
         display: inline-block
         margin: 0 6px
+
+.table-responsive
+  width: 100%
+  overflow-x: auto
+
+.table
+  width: 100%
+  th, td
+    border: 1px solid $blue
+  td
+    padding: 15px 30px
+    &:nth-child(2)
+      text-align: center
+
+thead
+  text-align: center
+  text-transform: uppercase
+  color: #fff
+  background: $blue
+  th
+    padding: 25px
+
+.panel-heading
+  width: 100%
+  border-bottom: 1px solid $blue
+  padding: 20px 0
+  .block-hover
+    display: none
+    width: 100%
+    padding: 40px 0
+    .box-text
+      font-weight: 500
+      max-width: 810px
+  .block-title
+    cursor: pointer
+    width: 100%
+    display: flex
+    align-items: center
+    h2, h3
+      display: flex
+      align-items: center
+      text-transform: uppercase
+      margin: 0
+      width: fit-content
+      &::after
+        content: ''
+        @include d-flex
+        width: 19px
+        height: 11px
+        min-width: 19px
+        margin: 0 0 0 13px
+        background: url('../img/arrow-accordion.png') no-repeat center
+        background-size: 100%
+  &.in
+    // .block-hover
+    //   display: block
+    .block-title
+      h2, h3
+        &::after
+          opacity: 0
+  .table
+    margin: 40px 0 0
 
 //checkbox my
 .label-checkbox

@@ -453,7 +453,7 @@
 }
 
 .callback-section2 {
-  background: url("../img/decor-bg1.jpg") no-repeat center;
+  background: url("../img/decor-bg5.jpg") no-repeat center top;
   background-size: cover;
 }
 .callback-section2 .callback-wrapper__bg {
@@ -540,6 +540,12 @@
   right: -114px;
   bottom: -124px;
   max-width: 695px;
+}
+
+.callback-section7 .callback-wrapper__bg {
+  right: 25px;
+  bottom: 8px;
+  max-width: 437px;
 }
 
 .news-card {
@@ -719,4 +725,37 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.page-repair-hour {
+  background: url("../img/repair-bg.jpg") no-repeat center;
+  background-size: cover;
+}
+.page-repair-hour .box-text ul {
+  max-width: 570px;
+}
+
+.form-callback-wrapper {
+  max-width: 590px;
+  width: 100%;
+  margin: 0 0 0 auto;
+  background: rgba(0, 0, 0, 0.74);
+  padding: 90px 65px 100px;
+  text-align: center;
+}
+.form-callback-wrapper .btn-group-messengers {
+  margin: 60px auto 0;
+}
+.form-callback-wrapper h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  max-width: 375px;
+  margin: 0 auto 45px;
+}
+
+.category-repair {
+  background: url("../img/decor-bg2.jpg") no-repeat center;
+  background-size: cover;
+  padding: 150px 0 150px;
 }
