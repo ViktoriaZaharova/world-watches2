@@ -267,6 +267,10 @@ ul, ol {
   margin: 0 -15px;
 }
 
+.align-items-center {
+  align-items: center;
+}
+
 .col-25 {
   width: 25%;
   padding: 0 15px;
@@ -444,6 +448,10 @@ h3, .h3 {
   margin: 0 5px 0 0;
   background: url("../img/decor-list.png") no-repeat center;
   background-size: 100%;
+}
+
+.list-decor2 li::before {
+  filter: brightness(0) invert(1);
 }
 
 .title-wrapper {

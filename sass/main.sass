@@ -457,11 +457,16 @@
     max-width: 695px
 
 .callback-section7
-
   .callback-wrapper__bg
     right: 25px
     bottom: 8px
     max-width: 437px
+
+.callback-section8
+  .callback-wrapper__bg
+    right: -33px
+    bottom: -30px
+    max-width: 631px  
 
 // news page
 .news-card
@@ -614,7 +619,6 @@
     ul
       max-width: 570px
 
-
 .form-callback-wrapper
   max-width: 590px
   width: 100%
@@ -631,11 +635,65 @@
     max-width: 375px
     margin: 0 auto 45px
 
-
 .category-repair
   background: url('../img/decor-bg2.jpg') no-repeat center
   background-size: cover
-  padding: 150px 0 150px 
+  padding: 150px 0 150px
 
 // rating hours page
-  
+.included-procedure
+  padding: 40px 0 50px
+  &__img
+    @include d-flex
+  &__content
+    background: url('../img/decor-bg6.jpg') no-repeat center
+    background-size: cover
+    padding: 80px 50px
+    min-height: 547px
+    ul
+      font-size: 20px
+      font-weight: 600
+
+.attention-section2
+  background: url('../img/decor-bg7.jpg') no-repeat center
+  background-size: cover
+  padding: 130px 0 120px 
+
+.rating-steps
+  margin: 80px 0
+  &__text
+    padding: 100px 
+    background: url('../img/rating-steps-bg.jpg') no-repeat center bottom
+    background-size: cover
+    .box-text
+      font-size: 22px
+      font-weight: 600
+      color: $blue
+      p
+        margin: 0 0 50px
+        &:last-child
+          margin: 0
+  &__img
+    @include d-flex
+
+.rating-steps-box
+  display: flex
+  align-items: flex-start
+  font-weight: 500
+  &__icon
+    margin: 0 19px 0 0
+    width: 58px
+    min-width: 58px
+    @include d-flex 
+  &__text
+    max-width: 255px      
+
+.page-rating-hour
+  background: url('../img/rating-home-bg.jpg') no-repeat center
+  background-size: cover   
+  .box-text
+    h3
+      strong
+        font-weight: 600   
+        font-size: 20px
+        display: block
