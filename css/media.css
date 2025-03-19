@@ -177,8 +177,6 @@
   }
   .fixed-menu.active .fixed-menu-list {
     font-size: 16px;
-  }
-  .fixed-menu.active .fixed-menu-list li a {
     padding: 10px 0;
   }
   .fixed-menu.active .fixed-menu-list li a::before {
@@ -271,6 +269,9 @@
   }
   .fixed-messanger-btn img {
     max-height: 100%;
+  }
+  .fixed-messanger-btn.phone-btn img {
+    width: 21px;
   }
   .advantages {
     padding: 20px 0 0;
@@ -408,6 +409,45 @@
     bottom: -70px;
     right: -40px;
   }
+  .page-commission h1 {
+    margin: 0 0 20px;
+  }
+  .page-commission .box-text {
+    font-size: 16px;
+  }
+  .commissiom-maximum {
+    margin: 50px 0;
+  }
+  .commissiom-maximum .box-text {
+    margin: 0 0 25px;
+  }
+  .commissiom-maximum .box-text:last-child {
+    margin: 0;
+  }
+  .commission-steps {
+    padding: 70px 0;
+  }
+  .callback-section9 .callback-wrapper__bg {
+    max-width: 300px;
+  }
+  .advantages-commission {
+    padding: 70px 0 0;
+  }
+  .advantages-commission__text .box-text {
+    margin: 0 0 30px;
+  }
+  .advantages-commission__text .box-text:last-child {
+    margin: 0;
+  }
+  .advantages-commission__content {
+    padding: 30px;
+  }
+  .advantages-commission__content .box-text {
+    margin: 0 0 30px;
+  }
+  .advantages-commission__content .box-text:last-child {
+    margin: 0;
+  }
 }
 @media only screen and (max-width: 992px) {
   h2 {
@@ -467,6 +507,9 @@
   }
   .form-callback-wrapper {
     margin: 0 auto;
+  }
+  .commissiom-maximum__text {
+    max-width: none;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -596,6 +639,21 @@
     max-width: 450px;
     right: -50px;
     bottom: -50px;
+  }
+  .page-commission {
+    position: relative;
+    z-index: 1;
+  }
+  .page-commission::before {
+    content: "";
+    position: absolute;
+    z-index: -2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: 0.5;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -740,6 +798,30 @@
     max-width: 350px;
     right: -50px;
     bottom: -50px;
+  }
+  .callback-section9 .callback-wrapper__bg {
+    max-width: 260px;
+    right: 0;
+    bottom: 0;
+  }
+  .commission-steps {
+    padding: 70px 0 20px;
+  }
+  .commission-steps-box h3 {
+    max-width: none;
+  }
+  .commission-steps-box br {
+    display: none;
+  }
+  .commission-steps .col-25 {
+    width: 100%;
+  }
+  .commission-steps-wrapper::before {
+    width: 250px;
+    height: 20px;
+  }
+  .commission-steps-wrapper {
+    padding: 0 0 40px;
   }
 }
 @media only screen and (max-width: 480px) {

@@ -554,6 +554,19 @@
   max-width: 631px;
 }
 
+.callback-section9 {
+  background: transparent;
+  padding: 50px 0 0;
+}
+.callback-section9 .callback-wrapper__bg {
+  right: 42px;
+  bottom: 13px;
+  max-width: 447px;
+}
+.callback-section9 .h1 {
+  margin: 0 auto 20px;
+}
+
 .news-card {
   width: 100%;
   font-size: 12px;
@@ -746,8 +759,12 @@
   width: 100%;
   margin: 0 0 0 auto;
   background: rgba(0, 0, 0, 0.74);
-  padding: 90px 65px 100px;
+  padding: 90px 55px 100px;
   text-align: center;
+  color: #fff;
+}
+.form-callback-wrapper h3 {
+  color: #fff;
 }
 .form-callback-wrapper .btn-group-messengers {
   margin: 60px auto 0;
@@ -841,4 +858,113 @@
   font-weight: 600;
   font-size: 20px;
   display: block;
+}
+
+.page-commission {
+  background: url("../img/commission-bg.jpg") no-repeat center;
+  background-size: cover;
+}
+.page-commission h1 {
+  margin: 0 0 90px;
+}
+.page-commission .box-text {
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 650px;
+}
+.page-commission .form-callback-wrapper h3 {
+  max-width: none;
+}
+
+.commissiom-maximum {
+  margin: 50px 0 70px;
+}
+.commissiom-maximum__text {
+  max-width: 540px;
+}
+.commissiom-maximum h2 {
+  max-width: 420px;
+}
+.commissiom-maximum .box-text {
+  margin: 0 0 45px;
+  font-weight: 500;
+}
+.commissiom-maximum .box-text:last-child {
+  margin: 0;
+}
+.commissiom-maximum .box-text h3 {
+  color: #546b7b;
+}
+
+.commission-steps {
+  padding: 170px 0 130px;
+  background: url("../img/decor-bg8.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.commission-steps-wrapper {
+  position: relative;
+  z-index: 1;
+  padding: 0 0 60px;
+}
+.commission-steps-wrapper::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  width: 360px;
+  height: 24px;
+  background: url("../img/decor-icon.png") no-repeat center;
+  background-size: 100%;
+}
+
+.commission-steps-box__body {
+  display: flex;
+  align-items: flex-start;
+  font-weight: 500;
+}
+.commission-steps-box__icon {
+  width: 48px;
+  min-width: 48px;
+  margin: 0 20px 0 0;
+}
+.commission-steps-box h3 {
+  color: #546b7b;
+  max-width: 235px;
+}
+
+.advantages-commission {
+  padding: 115px 0 0;
+  background: url("../img/decor-bg9.jpg") no-repeat center;
+  background-size: cover;
+}
+.advantages-commission__text h3 {
+  text-transform: uppercase;
+}
+.advantages-commission__text .box-text {
+  font-weight: 500;
+  margin: 0 0 90px;
+}
+.advantages-commission__text .box-text:last-child {
+  margin: 0;
+}
+.advantages-commission__text .box-text p {
+  max-width: 618px;
+}
+.advantages-commission__content {
+  padding: 65px 60px 80px 55px;
+  font-weight: 500;
+  background: #f7f7f7;
+}
+.advantages-commission__content .box-text {
+  margin: 0 0 60px;
+}
+.advantages-commission__content .box-text:last-child {
+  margin: 0;
+}
+.advantages-commission__content h4 {
+  text-transform: uppercase;
+  margin: 0 0 20px;
+  font-weight: 600;
 }

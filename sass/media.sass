@@ -86,8 +86,8 @@
   .attention-section
     padding: 60px 0 50px
 
-  .category-repair  
-    padding: 100px 0 
+  .category-repair
+    padding: 100px 0
 
 @media only screen and (max-width: 1300px)
   .about-products-categories
@@ -165,7 +165,7 @@
   .fixed-menu.active .fixed-menu-list
     font-size: 16px
     li a
-      padding: 10px 0 
+    padding: 10px 0
 
   .fixed-menu.active .fixed-menu-list li a::before
     width: 4px
@@ -255,6 +255,9 @@
     padding: 10px
     img
       max-height: 100%
+    &.phone-btn
+      img
+        width: 21px  
 
   .advantages
     padding: 20px 0 0
@@ -343,7 +346,7 @@
     padding: 30px 0
 
   .form-callback-wrapper
-    padding: 40px 30px  
+    padding: 40px 30px
 
   .category-repair
     padding: 80px 0
@@ -351,13 +354,13 @@
   .callback-section7 .callback-wrapper__bg
     bottom: 0
     right: 0
-    max-width: 350px  
+    max-width: 350px
 
   .panel-heading .block-hover
     padding: 30px 0
 
   .panel-heading .table
-    margin: 20px 0 0    
+    margin: 20px 0 0
 
   .page-rating-hour .box-text h3 strong
     font-size: 16px
@@ -369,11 +372,11 @@
       p
         margin: 0 0 20px
         &:last-child
-          margin: 0   
+          margin: 0
 
   .included-procedure__content
     padding: 30px
-    min-height: auto         
+    min-height: auto
     ul
       font-size: 18px
 
@@ -381,6 +384,40 @@
     max-width: 600px
     bottom: -70px
     right: -40px
+
+  .page-commission
+    h1
+      margin: 0 0 20px
+    .box-text
+      font-size: 16px
+
+  .commissiom-maximum
+    margin: 50px 0
+    .box-text
+      margin: 0 0 25px
+      &:last-child
+        margin: 0
+
+  .commission-steps
+    padding: 70px 0
+
+  .callback-section9 .callback-wrapper__bg
+    max-width: 300px
+
+  .advantages-commission
+    padding: 70px 0 0  
+
+  .advantages-commission__text .box-text
+    margin: 0 0 30px
+    &:last-child
+      margin: 0
+
+  .advantages-commission__content
+    padding: 30px
+    .box-text
+      margin: 0 0 30px
+      &:last-child
+        margin: 0    
 
 @media only screen and (max-width: 992px)
   h2
@@ -433,10 +470,14 @@
 
   .page-repair-hour
     .col-50
-      width: 100% 
+      width: 100%
 
   .form-callback-wrapper
     margin: 0 auto
+
+  .commissiom-maximum__text
+    max-width: none
+
 
 @media only screen and (max-width: 768px)
   footer
@@ -535,7 +576,7 @@
     width: 100%
 
   .order-tablet-1
-    order: -1  
+    order: -1
 
   .rating-steps__text
     padding: 30px
@@ -544,7 +585,7 @@
       p
         margin: 0 0 15px
         &:last-child
-          margin: 0  
+          margin: 0
 
   .rating-steps
     margin: 50px 0
@@ -553,6 +594,21 @@
     max-width: 450px
     right: -50px
     bottom: -50px
+
+  .page-commission
+    position: relative
+    z-index: 1
+    // color: #fff
+    &::before
+      content: ''
+      position: absolute
+      z-index: -2
+      left: 0
+      top: 0
+      width: 100%
+      height: 100%
+      background: #fff
+      opacity: 0.5
 
 @media only screen and (max-width: 576px)
   .h1, h1
@@ -649,13 +705,13 @@
 
   .callback-section6 .callback-wrapper__bg
     max-width: 400px
-    
+
   .map-box
     min-height: auto
     height: 350px
 
   .contacts-gallery
-    padding: 50px 0      
+    padding: 50px 0
 
   .form-callback-wrapper h3
     margin: 0 auto 20px
@@ -681,19 +737,44 @@
     padding: 60px 0
 
   .table td
-    padding: 10px 
+    padding: 10px
 
   thead th
     padding: 15px
 
   .callback-section7 .callback-wrapper__bg
     max-width: 250px
-                  
 
   .callback-section8 .callback-wrapper__bg
     max-width: 350px
     right: -50px
-    bottom: -50px                
+    bottom: -50px
+
+  .callback-section9 .callback-wrapper__bg
+    max-width: 260px
+    right: 0
+    bottom: 0
+
+  .commission-steps
+    padding: 70px 0 20px    
+
+  .commission-steps-box
+    h3
+      max-width: none
+
+    br
+      display: none
+
+  .commission-steps
+    .col-25
+      width: 100%
+
+  .commission-steps-wrapper::before
+    width: 250px
+    height: 20px 
+
+  .commission-steps-wrapper
+    padding: 0 0 40px     
 
 @media only screen and (max-width: 480px)
   .callback-section4 .callback-wrapper__bg
@@ -706,9 +787,8 @@
   .callback-section7 .callback-wrapper__bg
     right: -20px
     bottom: -20px
-    max-width: 200px  
+    max-width: 200px
 
-  
 @media only screen and (max-width: 420px)
   .btn-group-messengers
     flex-direction: column
@@ -806,6 +886,6 @@
   .callback-section8 .callback-wrapper__bg
     max-width: 250px
     right: -50px
-    bottom: -50px  
+    bottom: -50px
 
 @media only screen and (max-width: 370px)

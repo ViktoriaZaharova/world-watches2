@@ -466,7 +466,17 @@
   .callback-wrapper__bg
     right: -33px
     bottom: -30px
-    max-width: 631px  
+    max-width: 631px
+
+.callback-section9
+  background: transparent
+  padding: 50px 0 0
+  .callback-wrapper__bg
+    right: 42px
+    bottom: 13px
+    max-width: 447px 
+  .h1
+    margin: 0 auto 20px  
 
 // news page
 .news-card
@@ -618,14 +628,18 @@
   .box-text
     ul
       max-width: 570px
+     
 
 .form-callback-wrapper
   max-width: 590px
   width: 100%
   margin: 0 0 0 auto
   background: rgba(#000,.74 )
-  padding: 90px 65px 100px
+  padding: 90px 55px 100px
   text-align: center
+  color: #fff
+  h3
+    color: #fff
   .btn-group-messengers
     margin: 60px auto 0
   h3
@@ -657,12 +671,12 @@
 .attention-section2
   background: url('../img/decor-bg7.jpg') no-repeat center
   background-size: cover
-  padding: 130px 0 120px 
+  padding: 130px 0 120px
 
 .rating-steps
   margin: 80px 0
   &__text
-    padding: 100px 
+    padding: 100px
     background: url('../img/rating-steps-bg.jpg') no-repeat center bottom
     background-size: cover
     .box-text
@@ -684,16 +698,105 @@
     margin: 0 19px 0 0
     width: 58px
     min-width: 58px
-    @include d-flex 
+    @include d-flex
   &__text
-    max-width: 255px      
+    max-width: 255px
 
 .page-rating-hour
   background: url('../img/rating-home-bg.jpg') no-repeat center
-  background-size: cover   
+  background-size: cover
   .box-text
     h3
       strong
-        font-weight: 600   
+        font-weight: 600
         font-size: 20px
         display: block
+
+// commission page
+.page-commission
+  background: url('../img/commission-bg.jpg') no-repeat center
+  background-size: cover
+  h1
+    margin: 0 0 90px 
+  .box-text
+    font-size: 20px
+    font-weight: 500
+    max-width: 650px
+  .form-callback-wrapper
+    h3
+      max-width: none
+
+.commissiom-maximum
+  margin: 50px 0 70px
+  &__text
+    max-width: 540px
+  h2
+    max-width: 420px
+  .box-text
+    margin: 0 0 45px
+    font-weight: 500
+    &:last-child
+      margin: 0
+    h3
+      color: $blue
+
+.commission-steps
+  padding: 170px 0 130px  
+  background: url('../img/decor-bg8.jpg') no-repeat center
+  background-size: cover
+
+.commission-steps-wrapper
+  position: relative
+  z-index: 1
+  padding: 0 0 60px
+  &::before
+    content: ''
+    position: absolute
+    left: 50%
+    bottom: 0
+    transform: translate(-50%,0)
+    width: 360px
+    height: 24px
+    background: url('../img/decor-icon.png') no-repeat center
+    background-size: 100%  
+
+.commission-steps-box
+  &__body
+    display: flex
+    align-items: flex-start
+    font-weight: 500
+  &__icon
+    width: 48px
+    min-width: 48px
+    margin: 0 20px 0 0
+  h3
+    color: $blue
+    max-width: 235px  
+
+.advantages-commission
+  padding: 115px 0 0
+  background: url('../img/decor-bg9.jpg') no-repeat center
+  background-size: cover
+  &__text
+    h3
+      text-transform: uppercase
+      
+    .box-text
+      font-weight: 500
+      margin: 0 0 90px
+      &:last-child
+        margin: 0
+      p
+        max-width: 618px
+  &__content
+    padding: 65px 60px 80px 55px
+    font-weight: 500
+    background: #f7f7f7
+    .box-text
+      margin: 0 0 60px
+      &:last-child
+        margin: 0
+    h4
+      text-transform: uppercase
+      margin: 0 0 20px
+      font-weight: 600
