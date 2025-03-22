@@ -235,7 +235,7 @@ button:hover, button:focus, .btn:hover, .btn:focus {
 
 strong, b {
   font-weight: bold;
-  display: inline-block;
+  display: inline;
 }
 
 ul, ol {
@@ -276,8 +276,18 @@ ul, ol {
   padding: 0 15px;
 }
 
+.col-40 {
+  width: 40%;
+  padding: 0 15px;
+}
+
 .col-50 {
   width: 50%;
+  padding: 0 15px;
+}
+
+.col-60 {
+  width: 60%;
   padding: 0 15px;
 }
 
@@ -304,6 +314,10 @@ ul, ol {
 
 .font-700 {
   font-weight: bold;
+}
+
+.font-italic {
+  font-style: italic;
 }
 
 a.color-black {
@@ -439,17 +453,22 @@ h3, .h3 {
 
 .list-decor li {
   margin: 0 0 15px;
+  position: relative;
+  z-index: 1;
+  padding: 0 0 0 35px;
 }
 .list-decor li:last-child {
   margin: 0;
 }
 .list-decor li::before {
   content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
   display: inline-block;
   width: 23px;
   height: 11px;
   min-width: 23px;
-  margin: 0 5px 0 0;
   background: url("../img/decor-list.png") no-repeat center;
   background-size: 100%;
 }
@@ -556,6 +575,9 @@ h3, .h3 {
 }
 .page.color-white .breadcrumb a:hover {
   color: #546b7b;
+}
+.page-text {
+  font-size: 20px;
 }
 
 .nav-breadcrumb {
