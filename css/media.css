@@ -460,6 +460,9 @@
   .mb-100 {
     margin-bottom: 50px;
   }
+  .callback-section12 .callback-wrapper__bg {
+    max-width: 300px;
+  }
 }
 @media only screen and (max-width: 992px) {
   h2 {
@@ -530,7 +533,7 @@
   .page-text {
     font-size: 18px;
   }
-  .page-redemption .box-text {
+  .page-redemption .box-text, .page-redemption-brands .box-text {
     margin: 20px 0 0;
   }
   .requirements-diamonds h2 {
@@ -541,6 +544,9 @@
   }
   .diamonds-about__text {
     font-size: 18px;
+  }
+  .col-16 {
+    width: 25%;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -696,6 +702,14 @@
   }
   .callback-section11 .callback-wrapper__bg {
     max-width: 300px;
+  }
+  .callback-section12 .callback-wrapper__bg {
+    max-width: 250px;
+    bottom: -20px;
+    right: -20px;
+  }
+  .col-16 {
+    width: 33.33%;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -871,6 +885,17 @@
   }
   .diamonds-about__text {
     font-size: 16px;
+  }
+  .col-16 {
+    width: 50%;
+  }
+  .m-100 {
+    margin: 60px 0;
+  }
+  .callback-section12 .callback-wrapper__bg {
+    bottom: -30px;
+    right: -30px;
+    max-width: 200px;
   }
 }
 @media only screen and (max-width: 480px) {

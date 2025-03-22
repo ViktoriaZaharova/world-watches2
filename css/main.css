@@ -579,6 +579,15 @@
   max-width: 477px;
 }
 
+.callback-section12 .callback-wrapper__bg {
+  right: 0;
+  bottom: 0;
+  max-width: 388px;
+}
+.callback-section12 .callback-wrapper h3 {
+  max-width: 360px;
+}
+
 .news-card {
   width: 100%;
   font-size: 12px;
@@ -761,6 +770,9 @@
 .page-repair-hour {
   background: url("../img/repair-bg.jpg") no-repeat center;
   background-size: cover;
+}
+.page-repair-hour .page-text {
+  font-size: 16px;
 }
 .page-repair-hour .box-text ul {
   max-width: 570px;
@@ -1039,4 +1051,18 @@
 
 .diamonds-about__text {
   font-size: 20px;
+}
+
+.diamonds-about__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-redemption-brands {
+  background: url("../img/redemption-brands.jpg") no-repeat center;
+  background-size: cover;
+}
+.page-redemption-brands .box-text {
+  margin: 50px 0 0;
 }

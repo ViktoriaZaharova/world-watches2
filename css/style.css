@@ -267,8 +267,17 @@ ul, ol {
   margin: 0 -15px;
 }
 
+.row-brands {
+  margin: 0 -5px;
+}
+
 .align-items-center {
   align-items: center;
+}
+
+.col-16 {
+  width: 16.66%;
+  padding: 0 2.5px;
 }
 
 .col-25 {
@@ -293,6 +302,10 @@ ul, ol {
 
 .w-100 {
   width: 100%;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
 }
 
 .mb-30 {
