@@ -448,6 +448,18 @@
   .advantages-commission__content .box-text:last-child {
     margin: 0;
   }
+  .callback-section10 .callback-wrapper__bg {
+    max-width: 400px;
+  }
+  .select-cities {
+    padding: 50px 0;
+  }
+  .select-cities h2 {
+    margin: 0 0 30px;
+  }
+  .mb-100 {
+    margin-bottom: 50px;
+  }
 }
 @media only screen and (max-width: 992px) {
   h2 {
@@ -510,6 +522,10 @@
   }
   .commissiom-maximum__text {
     max-width: none;
+  }
+  .list-cities {
+    -moz-column-count: 2;
+         column-count: 2;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -654,6 +670,11 @@
     height: 100%;
     background: #fff;
     opacity: 0.5;
+  }
+  .callback-section10 .callback-wrapper__bg {
+    max-width: 300px;
+    bottom: -30px;
+    right: -30px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -836,6 +857,10 @@
     right: -20px;
     bottom: -20px;
     max-width: 200px;
+  }
+  .list-cities {
+    -moz-column-count: 1;
+         column-count: 1;
   }
 }
 @media only screen and (max-width: 420px) {

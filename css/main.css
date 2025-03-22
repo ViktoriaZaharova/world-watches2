@@ -567,6 +567,12 @@
   margin: 0 auto 20px;
 }
 
+.callback-section10 .callback-wrapper__bg {
+  right: -10px;
+  bottom: -20px;
+  max-width: 510px;
+}
+
 .news-card {
   width: 100%;
   font-size: 12px;
@@ -967,4 +973,37 @@
   text-transform: uppercase;
   margin: 0 0 20px;
   font-weight: 600;
+}
+
+.page-cities {
+  background: url("../img/cities-bg.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.why-clients .rating-steps__text {
+  background: url("../img/why-clients-bg.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.select-cities {
+  padding: 100px 0 80px;
+  background: url("../img/decor-bg10.jpg") no-repeat center top;
+  background-size: cover;
+}
+.select-cities h2 {
+  margin: 0 0 70px;
+}
+
+.list-cities {
+  width: 100%;
+  -moz-column-count: 4;
+       column-count: 4;
+  line-height: 1.7;
+}
+.list-cities li a {
+  text-decoration: underline;
+  color: #323232;
+}
+.list-cities li a:hover {
+  color: #546b7b;
 }

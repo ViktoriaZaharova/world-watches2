@@ -289,6 +289,10 @@ ul, ol {
   margin-bottom: 30px;
 }
 
+.mb-100 {
+  margin-bottom: 100px;
+}
+
 .m-100 {
   margin: 100px 0;
 }
