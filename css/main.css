@@ -588,6 +588,12 @@
   max-width: 360px;
 }
 
+.callback-section13 .callback-wrapper__bg {
+  right: 0;
+  bottom: 16px;
+  max-width: 576px;
+}
+
 .news-card {
   width: 100%;
   font-size: 12px;
@@ -1065,4 +1071,19 @@
 }
 .page-redemption-brands .box-text {
   margin: 50px 0 0;
+}
+
+.page-redemption-hours {
+  background: url("../img/redemption-hours-bg.jpg") no-repeat center;
+  background-size: cover;
+}
+.page-redemption-hours h1 {
+  margin: 0 0 60px;
+}
+.page-redemption-hours ul li strong {
+  display: block;
+}
+
+.steps-work-section .commission-steps-box h3 {
+  max-width: none;
 }

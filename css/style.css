@@ -285,6 +285,11 @@ ul, ol {
   padding: 0 15px;
 }
 
+.col-30 {
+  width: 33.33%;
+  padding: 0 15px;
+}
+
 .col-40 {
   width: 40%;
   padding: 0 15px;
