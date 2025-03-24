@@ -227,6 +227,18 @@ button:hover, button:focus, .btn:hover, .btn:focus {
   filter: invert(1);
 }
 
+.btn-border-blue {
+  border: 1px solid #546b7b;
+  color: #323232;
+}
+.btn-border-blue:hover, .btn-border-blue:focus, .btn-border-blue:active {
+  background: #fff;
+  color: #6f91a9;
+}
+.btn-border-blue:hover .btn-arrow, .btn-border-blue:focus .btn-arrow, .btn-border-blue:active .btn-arrow {
+  filter: invert(1);
+}
+
 .svg-icon {
   display: inline-block;
   width: 100%;
@@ -325,6 +337,10 @@ ul, ol {
   margin: 100px 0;
 }
 
+.p-100 {
+  padding: 100px 0;
+}
+
 .wrapper {
   width: 100%;
   padding: 0 0 0 100px;
@@ -357,6 +373,7 @@ a.color-black:hover {
   width: 100%;
   font-size: 36px;
   font-weight: 500;
+  line-height: 1.2;
   color: #546b7b;
   margin: 0 auto 35px;
   text-align: center;

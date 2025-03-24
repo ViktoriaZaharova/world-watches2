@@ -594,6 +594,12 @@
   max-width: 576px;
 }
 
+.callback-section14 .callback-wrapper__bg {
+  right: 40px;
+  bottom: 33px;
+  max-width: 413px;
+}
+
 .news-card {
   width: 100%;
   font-size: 12px;
@@ -835,7 +841,8 @@
 .attention-section2 {
   background: url("../img/decor-bg7.jpg") no-repeat center;
   background-size: cover;
-  padding: 130px 0 120px;
+  padding: 60px 0 80px;
+  font-weight: 500;
 }
 
 .rating-steps {
@@ -1086,4 +1093,82 @@
 
 .steps-work-section .commission-steps-box h3 {
   max-width: none;
+}
+
+.page-workshop {
+  background: url("../img/workshop-bg.jpg") no-repeat center;
+  background-size: cover;
+}
+.page-workshop .page-text {
+  max-width: 600px;
+}
+.page-workshop .box-text {
+  font-size: 16px;
+}
+
+.btn-all-prices {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 70px auto 0;
+}
+
+.spectrum-services {
+  background: url("../img/decor-bg11.jpg") no-repeat center;
+  background-size: cover;
+}
+.spectrum-services h2 {
+  max-width: 600px;
+}
+
+.services-section {
+  margin: 120px 0 50px;
+}
+.services-section h2 {
+  margin: 0 0 35px;
+}
+
+.services-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-text {
+  padding: 80px 80px 90px;
+  background: url("../img/services-bg.jpg") no-repeat center;
+  background-size: cover;
+}
+.services-text .box-text, .services-text strong {
+  font-weight: 500;
+}
+.services-text ul {
+  margin: 35px 0 0;
+  max-width: 660px;
+}
+
+.services-advantages .services-text {
+  background: url("../img/services-advantages-bg.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.equipment h2 {
+  max-width: 830px;
+}
+
+.equipment-box {
+  width: 100%;
+}
+.equipment-box img {
+  width: 100%;
+}
+
+.service-hours__text {
+  padding: 80px 40px 90px 70px;
+}
+
+.service-hours-advantages {
+  background: #6f91a9;
+  color: #fff;
+  padding: 30px 0 0;
+  font-weight: 500;
 }
