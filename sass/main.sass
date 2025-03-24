@@ -516,6 +516,12 @@
     bottom: -6px
     max-width: 247px
 
+.callback-section16
+  .callback-wrapper__bg
+    right: 50px
+    bottom: -33px
+    max-width: 384px    
+
 // news page
 .news-card
   width: 100%
@@ -1025,7 +1031,7 @@
     align-items: stretch  
   .slick-slide
     height: auto  
-    padding: 0 15px
+    padding: 0 15px 15px
   .slick-list
     margin: 0 -15px  
 
@@ -1039,6 +1045,9 @@
   display: flex
   align-items: flex-start
   font-size: 12px
+  transition: .3s ease
+  &:hover
+    box-shadow: 0 4px 16px #bcbcbc
   &__avatar
     @include d-flex
     border-radius: 50%
@@ -1068,3 +1077,41 @@
     &:hover
       color: $blue-light          
 
+// about page
+.page-about
+  background: url('../img/about-bg.jpg') no-repeat center
+  background-size: cover
+  .box-text
+    font-size: 16px
+    max-width: 530px
+
+.terms-redemption
+  margin: 80px 0 100px
+
+.terms-redemption-box
+  margin: 0 0 25px
+  max-width: 755px
+  &:last-child
+    margin: 0
+  h3
+    font-weight: bold
+    color: $blue
+    margin: 0  
+
+.about-advantages-box
+  text-align: center
+  
+  &__icon
+    @include d-flex
+    margin: 0 auto 30px
+    height: 92px
+    img
+      max-height: 100%
+  h3
+    color: $blue
+    text-align: center
+    text-transform: uppercase
+    span
+      text-transform: none
+      display: block  
+      margin: 20px auto 0

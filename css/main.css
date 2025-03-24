@@ -606,6 +606,12 @@
   max-width: 247px;
 }
 
+.callback-section16 .callback-wrapper__bg {
+  right: 50px;
+  bottom: -33px;
+  max-width: 384px;
+}
+
 .news-card {
   width: 100%;
   font-size: 12px;
@@ -1233,7 +1239,7 @@
 }
 .reviews-slider .slick-slide {
   height: auto;
-  padding: 0 15px;
+  padding: 0 15px 15px;
 }
 .reviews-slider .slick-list {
   margin: 0 -15px;
@@ -1248,6 +1254,10 @@
   display: flex;
   align-items: flex-start;
   font-size: 12px;
+  transition: 0.3s ease;
+}
+.reviews-box:hover {
+  box-shadow: 0 4px 16px #bcbcbc;
 }
 .reviews-box__avatar {
   display: flex;
@@ -1285,4 +1295,54 @@
 }
 .reviews-box .link:hover {
   color: #6f91a9;
+}
+
+.page-about {
+  background: url("../img/about-bg.jpg") no-repeat center;
+  background-size: cover;
+}
+.page-about .box-text {
+  font-size: 16px;
+  max-width: 530px;
+}
+
+.terms-redemption {
+  margin: 80px 0 100px;
+}
+
+.terms-redemption-box {
+  margin: 0 0 25px;
+  max-width: 755px;
+}
+.terms-redemption-box:last-child {
+  margin: 0;
+}
+.terms-redemption-box h3 {
+  font-weight: bold;
+  color: #546b7b;
+  margin: 0;
+}
+
+.about-advantages-box {
+  text-align: center;
+}
+.about-advantages-box__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 30px;
+  height: 92px;
+}
+.about-advantages-box__icon img {
+  max-height: 100%;
+}
+.about-advantages-box h3 {
+  color: #546b7b;
+  text-align: center;
+  text-transform: uppercase;
+}
+.about-advantages-box h3 span {
+  text-transform: none;
+  display: block;
+  margin: 20px auto 0;
 }
