@@ -501,6 +501,41 @@
     opacity: 0.8;
     background: #fff;
   }
+  .callback-section15 .callback-wrapper__bg {
+    bottom: 0;
+    right: 0;
+    max-width: 200px;
+  }
+  .reviews-section .contacts-information-row .rating-box {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .reviews-section .contacts-information-row .rating-box__top {
+    font-size: 14px;
+  }
+  .reviews-section .contacts-information-row .rating-box img:nth-child(2) {
+    max-width: 80px;
+  }
+  .reviews-section .contacts-information-row .rating-box img:first-child {
+    width: 25px;
+  }
+  .reviews-section .contacts-information-row .rating-box {
+    margin: 0 18px 0 0;
+    padding: 15px 13px;
+  }
+  .reviews-section {
+    margin: 70px 0 0;
+  }
+  .reviews-section .btn-add-reviews {
+    font-size: 16px;
+    height: 45px;
+  }
+  .reviews-slider__nav {
+    margin: 0 0 30px auto;
+  }
+  .reviews-box {
+    padding: 20px 20px 40px;
+  }
 }
 @media only screen and (max-width: 992px) {
   h2 {
@@ -588,6 +623,10 @@
   }
   .page-redemption-hours h1 {
     margin: 0 0 30px;
+  }
+  .text-description {
+    margin: 20px auto 0;
+    font-size: 16px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -780,6 +819,10 @@
   .services-section {
     margin: 70px 0 50px;
   }
+  .reviews-section .btn-add-reviews {
+    width: 100%;
+    margin: 20px auto 0;
+  }
 }
 @media only screen and (max-width: 576px) {
   .h1, h1 {
@@ -968,6 +1011,20 @@
     bottom: -30px;
     right: -30px;
     max-width: 200px;
+  }
+  .callback-section15 .callback-wrapper__bg {
+    max-width: 160px;
+    bottom: -20px;
+  }
+  .reviews-box__avatar {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    font-size: 16px;
+  }
+  .reviews-box .box-text {
+    max-width: none;
+    margin: 20px 0 0;
   }
 }
 @media only screen and (max-width: 480px) {
