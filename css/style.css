@@ -263,6 +263,13 @@ ul, ol {
   list-style-type: disc;
 }
 
+.list-dots-my {
+  padding: 0 0 0 15px;
+}
+.list-dots-my li::marker {
+  color: #546b7b;
+}
+
 .container {
   margin: 0 auto;
   width: 100%;
