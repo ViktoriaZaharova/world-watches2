@@ -83,6 +83,31 @@ $('.home-slider').slick({
   dots: true
 });
 
+$('.product-gallery-max').slick({
+  slidesToShow: 1,
+  fade: true,
+  arrows: false,
+  dots: false,
+  asNavFor: '.product-gallery-preview'
+});
+
+$('.product-gallery-preview').slick({
+  slidesToShow: 4,
+  fade: false,
+  arrows: false,
+  dots: false,
+  focusOnSelect: true,
+  asNavFor: '.product-gallery-max',
+  responsive: [
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 3,
+      }
+    }
+  ]
+});
+
 $('.btn-burger').on('click', function (e) {
   e.preventDefault();
   $('.fixed-menu').addClass('active');
