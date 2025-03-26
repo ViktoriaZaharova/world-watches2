@@ -1429,7 +1429,7 @@
 
 // shop page
 .page-shop
-  padding-bottom: 0
+  padding-bottom: 20px
 
 .sidebar
   max-width: 400px
@@ -1438,9 +1438,17 @@
   position: relative
   z-index: 1
   padding: 30px
+  margin: 70px 0 0
 
 .sidebar-close
   display: none  
+  position: absolute
+  right: 20px
+  top: 20px
+  width: 24px
+  height: 24px
+  img
+    width: 100%
 
 .sidebar-box
   width: 100%
@@ -1456,6 +1464,10 @@
   .block-hover
     padding: 30px 0 0 
     font-size: 12px 
+
+.btn-sidebar-mobile
+  margin: 0 0 0 auto
+  width: fit-content    
 
 .form-search
   width: 100%
@@ -1483,17 +1495,17 @@
 .filter-wrapper
   width: 100%
   display: flex
-  align-items: flex-start
+  align-items: center
   flex-wrap: wrap
-  border-bottom: 1px solid #f5f5f5
+  border-bottom: 2px solid #f5f5f5
   margin: 0 0 35px
   padding: 0 0 25px
 
 .filter-box
-  margin: 0 65px 10px 0
+  margin: 0 65px 0 0
   color: #aeaeae
   &:last-child
-    margin: 0 0 10px  
+    margin: 0  
   span
     font-weight: 500
     color: $grey  
@@ -1505,3 +1517,13 @@
 .box-text-small
   font-size: 12px
   margin: 20px 0 0      
+
+.form-sidebar-search
+  width: 100%
+  margin: 0 0 30px
+  input
+    height: 33px
+    padding: 0 15px
+    background: #fff
+    border-radius: 0
+    border: 1px solid $blue

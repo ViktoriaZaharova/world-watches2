@@ -279,6 +279,10 @@ ul, ol {
   flex-wrap: wrap;
 }
 
+.container-fluid {
+  max-width: none;
+}
+
 .row {
   display: flex;
   align-items: stretch;
@@ -565,6 +569,14 @@ h3, .h3 {
   background-size: 100%;
 }
 
+.list-check li {
+  width: 100%;
+  margin: 0 0 15px;
+}
+.list-check li:last-child {
+  margin: 0;
+}
+
 .list-decor li {
   margin: 0 0 15px;
   position: relative;
@@ -803,28 +815,88 @@ thead th {
   position: relative˝;
   display: flex;
   align-items: flex-start;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
-  margin: 15px 0 0;
-  line-height: 1.14;
+  color: #546b7b;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  cursor: pointer;
 }
-
-.inp-check {
+.label-checkbox input {
   display: none;
+}
+.label-checkbox input:checked ~ .checkbox-custom {
+  background: #546b7b url("../img/check-icon3.png") no-repeat center;
+  background-size: 9px;
 }
 
 .checkbox-custom {
-  margin: 0 12px 0 0;
+  margin: 3px 12px 0 0;
   position: relative;
-  border-radius: 6px;
-  background-color: #fff;
-  width: 16px;
-  height: 16px;
-  min-width: 16px;
+  border-radius: 0;
+  background-color: transparent;
+  border: 1px solid #546b7b;
+  width: 13px;
+  height: 13px;
+  min-width: 13px;
   cursor: pointer;
 }
 
-.inp-check:checked ~ .checkbox-custom {
-  background: #fff url("../img/check-black.svg") no-repeat center;
-  background-size: 8px;
+.ui-slider {
+  margin: 20px 0 0;
+}
+.ui-slider .ui-slider-range {
+  background: #546b7b;
+  height: 2px;
+}
+.ui-slider.ui-slider-horizontal {
+  height: 2px;
+  border: none;
+  border-radius: 0;
+  background: #323232;
+}
+.ui-slider .ui-slider-handle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  background: #546b7b;
+}
+.ui-slider .ui-slider-handle.ui-state-focus, .ui-slider .ui-slider-handle:hover, .ui-slider .ui-slider-handle:focus {
+  border: none;
+  box-shadow: none;
+}
+.ui-slider .ui-slider-handle.ui-state-focus:hover, .ui-slider .ui-slider-handle.ui-state-focus:focus, .ui-slider .ui-slider-handle:hover:hover, .ui-slider .ui-slider-handle:hover:focus, .ui-slider .ui-slider-handle:focus:hover, .ui-slider .ui-slider-handle:focus:focus {
+  box-shadow: none;
+  border: none;
+}
+
+.polzunor-container-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.polzunor-container-wrapper input {
+  text-align: center;
+  background: #fff;
+  height: 33px;
+  border-radius: 0;
+  border: 1px solid #546b7b;
+  flex: 1;
+  margin: 0 20px 0 0;
+  font-size: 12px;
+  color: #323232;
+}
+.polzunor-container-wrapper input:last-child {
+  margin: 0;
+}
+
+.load-more-wrap {
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 500;
+  color: #aeaeae;
+}
+.load-more-wrap:hover {
+  color: #546b7b;
 }

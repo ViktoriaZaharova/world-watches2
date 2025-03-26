@@ -193,12 +193,12 @@ ul, ol
 
 .list-dots
   list-style-type: disc
-  
+
 .list-dots-my
   padding: 0 0 0 15px
   li
     &::marker
-      color: $blue  
+      color: $blue
 
 .container
   margin: 0 auto
@@ -207,6 +207,9 @@ ul, ol
   padding: 0 15px
   display: flex
   flex-wrap: wrap
+
+.container-fluid
+  max-width: none
 
 .row
   display: flex
@@ -219,16 +222,15 @@ ul, ol
   align-items: start
   flex-wrap: wrap
 
-
 .row-brands
-  margin: 0 -5px  
+  margin: 0 -5px
 
 .align-items-center
-  align-items: center  
+  align-items: center
 
 .col-16
   width: 16.66%
-  padding: 0 2.5px  
+  padding: 0 2.5px
 
 .col-25
   width: 25%
@@ -236,7 +238,7 @@ ul, ol
 
 .col-30
   width: 33.33%
-  padding: 0 15px  
+  padding: 0 15px
 
 .col-40
   width: 40%
@@ -254,19 +256,19 @@ ul, ol
   width: 100%
 
 .w-auto
-  width: fit-content  
+  width: fit-content
 
 .mb-5
-  margin-bottom: 5px  
+  margin-bottom: 5px
 
 .mb-30
   margin-bottom: 30px
 
 .mb-70
-  margin-bottom: 70px  
+  margin-bottom: 70px
 
 .mb-100
-  margin-bottom: 100px  
+  margin-bottom: 100px
 
 .m-100
   margin: 100px 0
@@ -282,7 +284,7 @@ ul, ol
   font-weight: bold
 
 .font-italic
-  font-style: italic  
+  font-style: italic
 
 a.color-black
   color: $grey
@@ -296,7 +298,7 @@ a.color-black
   color: #fff
 
 .color-red
-  color: #fe0000  
+  color: #fe0000
 
 .bg-green
   background: #129737
@@ -328,7 +330,7 @@ a.color-black
       &:hover, &:focus
         color: $blue
       &.active
-        border-color: $blue      
+        border-color: $blue
 
 .select-my
   font-size: 16px
@@ -439,6 +441,13 @@ h3, .h3
       background: url('../img/check-icon2.png') no-repeat center
       background-size: 100%
 
+.list-check
+  li
+    width: 100%
+    margin: 0 0 15px
+    &:last-child
+      margin: 0
+
 .list-decor
   li
     margin: 0 0 15px
@@ -460,7 +469,7 @@ h3, .h3
       background-size: 100%
 
 .list-decor2
-  li    
+  li
     &::before
       filter: brightness(0) invert(1)
 
@@ -477,7 +486,7 @@ h3, .h3
     margin: 0 0 0 auto
 
 .slick-slider
-  width: 100%    
+  width: 100%
 
 .slider-nav
   display: flex
@@ -545,7 +554,7 @@ h3, .h3
         &:hover
           color: $blue
   &-text
-    font-size: 20px        
+    font-size: 20px
 
 .nav-breadcrumb
   width: 100%
@@ -634,25 +643,76 @@ thead
   position: relative˝
   display: flex
   align-items: flex-start
-  color: rgba(255, 255, 255, 0.5)
-  font-size: 14px
-  margin: 15px 0 0
-  line-height: 1.14
-
-.inp-check
-  display: none
+  color: $blue
+  font-size: 16px
+  font-weight: 500
+  margin: 0
+  cursor: pointer
+  input
+    display: none
+    &:checked ~ .checkbox-custom
+      background: $blue url("../img/check-icon3.png") no-repeat center
+      background-size: 9px
 
 .checkbox-custom
-  margin: 0 12px 0 0
+  margin: 3px 12px 0 0
   position: relative
-  border-radius: 6px
-  background-color: #fff
-  width: 16px
-  height: 16px
-  min-width: 16px
+  border-radius: 0
+  background-color: transparent
+  border: 1px solid $blue
+  width: 13px
+  height: 13px
+  min-width: 13px
   cursor: pointer
 
-.inp-check:checked ~ .checkbox-custom
-  background: #fff url("../img/check-black.svg") no-repeat center
-  background-size: 8px
 //checkbox my end
+
+// slider range
+.ui-slider
+  margin: 20px 0 0
+  .ui-slider-range
+    background: $blue
+    height: 2px
+  &.ui-slider-horizontal
+    height: 2px
+    border: none
+    border-radius: 0
+    background: $grey
+  .ui-slider-handle
+    width: 10px
+    height: 10px
+    border-radius: 50%
+    border: none
+    background: $blue
+    &.ui-state-focus, &:hover, &:focus
+      border: none
+      box-shadow: none  
+      &:hover, &:focus
+        box-shadow: none
+        border: none
+
+.polzunor-container-wrapper
+  width: 100%
+  display: flex
+  align-items: flex-start
+  justify-content: space-between
+  input
+    text-align: center
+    background: #fff
+    height: 33px
+    border-radius: 0
+    border: 1px solid $blue
+    flex: 1
+    margin: 0 20px 0 0
+    font-size: 12px
+    color: $grey
+    &:last-child
+      margin: 0        
+
+.load-more-wrap
+  text-decoration: underline
+  font-size: 16px
+  font-weight: 500
+  color: #aeaeae
+  &:hover
+    color: $blue      
