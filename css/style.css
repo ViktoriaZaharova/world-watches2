@@ -286,6 +286,12 @@ ul, ol {
   margin: 0 -15px;
 }
 
+.row-wrapper {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
 .row-brands {
   margin: 0 -5px;
 }
@@ -383,6 +389,63 @@ a.color-black:hover {
 
 .color-white {
   color: #fff;
+}
+
+.color-red {
+  color: #fe0000;
+}
+
+.bg-green {
+  background: #129737;
+}
+
+.bg-red {
+  background: #c20000;
+}
+
+.bg-yellow {
+  background: #cb9900;
+}
+
+.nav-pagination {
+  width: 100%;
+  margin: 30px auto 0;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+.pagination li a {
+  color: #323232;
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+}
+.pagination li a:hover, .pagination li a:focus {
+  color: #546b7b;
+}
+.pagination li a.active {
+  border-color: #546b7b;
+}
+
+.select-my {
+  font-size: 16px;
+  font-weight: 500;
+  color: #323232;
+  height: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: url("../img/arrow-select.png") no-repeat right center;
+  background-size: 14px;
+  padding: 0 27px 0 0;
 }
 
 .h1, h1 {

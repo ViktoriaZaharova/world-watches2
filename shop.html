@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мир часов</title>
+
+  <meta property="og:image" content="path/to/image.jpg">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/slick.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+
+      <div class="fixed-menu">
+        <a href="#" class="btn-burger"><span></span><span></span><span></span></a>
+        <a href="#" class="fixed-menu__close"></a>
+        <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+        <div class="fixed-menu__wrapper">
+          <nav class="fixed-menu-nav">
+            <ul class="fixed-menu-list my-ul">
+              <li class="fixed-menu-list__default">
+                <a href="#">
+                  <img src="img/menu-icon1.png" alt="">
+                  <span>Выкуп
+                    часов</span>
+                </a>
+              </li>
+              <li class="fixed-menu-list__default">
+                <a href="rating-hours.html">
+                  <img src="img/menu-icon2.png" alt="">
+                  <span>Оценка
+                    часов</span>
+                </a>
+              </li>
+              <li class="fixed-menu-list__default">
+                <a href="#">
+                  <img src="img/menu-icon3.png" alt="">
+                  <span>Ремонт
+                    часов</span>
+                </a>
+              </li>
+              <li class="fixed-menu-list__active">
+                <a href="#" class="active">
+                  <span>
+                    Выкуп
+                  </span>
+                </a>
+              </li>
+              <li class="fixed-menu-list__active">
+                <a href="#">
+                  <span>
+                    В продаже
+                  </span>
+                </a>
+              </li>
+              <li class="fixed-menu-list__active">
+                <a href="#">
+                  <span>
+                    Оценка часов
+                  </span>
+                </a>
+              </li>
+              <li class="fixed-menu-list__active">
+                <a href="commission.html">
+                  <span>
+                    Выкуп украшений
+                    Комиссия
+                  </span>
+                </a>
+              </li>
+              <li class="fixed-menu-list__active">
+                <a href="repair-hour.html">
+                  <span>
+                    Ремонт часов
+                  </span>
+                </a>
+              </li>
+              <li class="fixed-menu-list__active">
+                <a href="news.html">
+                  <span>
+                    Статьи
+                  </span>
+                </a>
+              </li>
+              <li class="fixed-menu-list__active">
+                <a href="brands.html">
+                  <span>
+                    Бренды
+                  </span>
+                </a>
+              </li>
+              <li class="fixed-menu-list__active">
+                <a href="about.html">
+                  <span>
+                    О нас
+                  </span>
+                </a>
+              </li>
+              <li class="fixed-menu-list__active">
+                <a href="contacts.htmml">
+                  <span>
+                    Контакты</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="messengars-column">
+            <a href="tel:+74951477778" class="messengars-column__link"><img src="img/phone-icon.png" alt=""></a>
+            <a href="https://wa.me/74951477778" class="messengars-column__link"><img src="img/whatsapp-icon.png"
+                alt=""></a>
+            <a href="tg:+74951477778" class="messengars-column__link"><img src="img/tg-icon.png" alt=""></a>
+            <a href="mailto:+74951477778" class="messengars-column__link"><img src="img/mail-icon.png" alt=""></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container">
+        <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+
+        <nav class="nav-menu">
+          <ul class="menu my-ul">
+            <li class="menu-item"><a href="about.html" class="menu-link">О часовом центре</a></li>
+            <li class="menu-item"><a href="rating-hours.html" class="menu-link">Оценка часов</a></li>
+            <li class="menu-item"><a href="redemption-hours.html" class="menu-link">Выкуп часов</a></li>
+            <li class="menu-item"><a href="redemption-jewelry.html" class="menu-link">Выкуп украшений</a></li>
+            <li class="menu-item"><a href="shop.html" class="menu-link">Магазин</a></li>
+            <li class="menu-item"><a href="contacts.html" class="menu-link">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-contacts">
+          <a href="tel:+74951477778" class="header-contacts__link">+7 (495) 147-77-78</a>
+          <a href="tel:+79688889288" class="header-contacts__link">+7 (968) 888-92-88</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="page page-shop">
+      <div class="container">
+        <nav class="nav-breadcrumb">
+          <ul class="my-ul breadcrumb">
+            <li><a href="index.html">Главная</a></li>
+            <li><span>Магазин</span></li>
+          </ul>
+        </nav>
+
+        <div class="w-100">
+          <div class="row-wrapper">
+            <div class="sidebar sidebar-catalog">
+              <div class="sidebar-box panel-heading in">
+                <div class="block-title"> <h3>Цена</h3></div>
+                <div class="block-hover">
+                  <div class="box-text">
+                    <p>Ремонт часов следующих брендов: Armand Nicolet, Edox, Fortis, Mido, Hamilton, Oris, Paul Picot, Baume &
+                      Mercier, Frederique Constant, Raymond Weil, Louis Errard, Maurice Lacroix, Glycine </p>
+                  </div>
+                  
+                </div>
+              </div>
+
+              <div class="sidebar-box panel-heading">
+                <div class="block-title"> <h3>Цена</h3></div>
+                <div class="block-hover">
+                  <div class="box-text">
+                    <p>Ремонт часов следующих брендов: Armand Nicolet, Edox, Fortis, Mido, Hamilton, Oris, Paul Picot, Baume &
+                      Mercier, Frederique Constant, Raymond Weil, Louis Errard, Maurice Lacroix, Glycine </p>
+                  </div>
+                  
+                </div>
+              </div>
+
+
+              <div class="sidebar-box">
+                <h3></h3>
+              </div>
+
+              <div class="sidebar-box">
+                <h3></h3>
+              </div>
+
+              <div class="sidebar-box">
+                <h3></h3>
+              </div>
+
+              <div class="sidebar-box">
+                <h3></h3>
+              </div>
+
+              <div class="sidebar-box">
+                <h3></h3>
+              </div>
+            </div>
+
+            <div class="catalog-content">
+              <h1>швейцарские часы БУ и новые</h1>
+              <div class="box-text">
+                <p>Купить бу оригинальные швейцарские часы в Москве - Мир часов. Гарантия оригинальности всех изделий,
+                  широкий выбор часов и аксессуаров к ним. Удобный фильтр и каталог, в котором представлены разные
+                  бренды. В продаже как мужские, так и женские модели.</p>
+                
+              </div>
+
+              <div class="box-text box-text-small"><p class="color-blue">Продажу осуществляет ИП Кулиев Р.Ю., ИНН: 771674574720, ОГРН: 321774600656730</p>
+
+                <p><strong class="font-700 color-red">Внимание! В связи с нестабильностью курса валют, актуальные цены
+                    просьба уточнять у менеджера. Спасибо за понимание!</strong></p></div>
+
+              <form method="post" class="form-search">
+                <button type="submit"><img src="img/search-icon.png" alt=""></button>
+                <label><input type="text" placeholder="Поиск по реф., внутреннему коду или бренду" name="search"
+                    required></label>
+              </form>
+
+              <div class="filter-wrapper">
+                <div class="filter-box">
+                  <p>Всего позиций: <span>98</span></p>
+                </div>
+                <select name="select" class="select-my filter-box">
+                  <option value="Сначала новинки">Сначала новинки</option>
+                  <option value="По возрастанию цены">По возрастанию цены</option>
+                  <option value="По убыванию цены">По убыванию цены</option>
+                </select>
+              </div>
+
+              <div class="w-100">
+                <div class="row">
+                  <div class="col-25 mb-30">
+                    <div class="product-card product-card-shop">
+                      <div class="product-card-labels">
+                        <div class="product-card-label bg-green">Новинка</div>
+                      </div>
+                      <a href="product.html" class="product-card__img"><img src="img/product1.jpg" alt=""></a>
+                      <div class="product-card__body">
+                        <a href="product.html" class="product-card__name">Chronoswiss
+                          Opus Skeleton</a>
+                        <div class="price">810 000 ₽</div>
+                        <div class="product-card__footer">
+                          <div class="product-card__text">
+                            <p class="color-blue">В наличии
+                              </p>
+                              <p>Как новые</p>
+                          </div>
+                          <div class="product-card__info">
+                            <div class="icon-info"><img src="img/info-icon1.png" alt=""></div>
+                            <div class="icon-info"><img src="img/info-icon2.png" alt=""></div>
+                            <div class="icon-info"><img src="img/info-icon4.png" alt=""></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-25 mb-30">
+                    <div class="product-card product-card-shop">
+                      <div class="product-card-labels">
+                        <div class="product-card-label bg-red">Скидка</div>
+                      </div>
+                      <a href="product.html" class="product-card__img"><img src="img/product1.jpg" alt=""></a>
+                      <div class="product-card__body">
+                        <a href="product.html" class="product-card__name">Chronoswiss
+                          Opus Skeleton</a>
+                        <div class="price">810 000 ₽</div>
+                        <div class="product-card__footer">
+                          <div class="product-card__text">
+                            <p class="color-blue">Скоро в продаже
+                              </p>
+                              <p>Как новые</p>
+                          </div>
+                          <div class="product-card__info">
+                            <div class="icon-info"><img src="img/info-icon5.png" alt=""></div>
+                            <div class="icon-info"><img src="img/info-icon2.png" alt=""></div>
+                            <div class="icon-info"><img src="img/info-icon6.png" alt=""></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-25 mb-30">
+                    <div class="product-card product-card-shop">
+                      <div class="product-card-labels">
+                        <div class="product-card-label bg-yellow">Акция</div>
+                      </div>
+                      <a href="product.html" class="product-card__img"><img src="img/product1.jpg" alt=""></a>
+                      <div class="product-card__body">
+                        <a href="product.html" class="product-card__name">Chronoswiss
+                          Opus Skeleton</a>
+                        <div class="price">810 000 ₽</div>
+                        <div class="product-card__footer">
+                          <div class="product-card__text">
+                            <p class="color-blue">Скоро в продаже
+                              </p>
+                              <p>Как новые</p>
+                          </div>
+                          <div class="product-card__info">
+                            <div class="icon-info"><img src="img/info-icon1.png" alt=""></div>
+                            <div class="icon-info"><img src="img/info-icon2.png" alt=""></div>
+                            <div class="icon-info"><img src="img/info-icon7.png" alt=""></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-25 mb-30">
+                    <div class="product-card product-card-shop">
+                      <a href="product.html" class="product-card__img"><img src="img/product1.jpg" alt=""></a>
+                      <div class="product-card__body">
+                        <a href="product.html" class="product-card__name">Chronoswiss
+                          Opus Skeleton</a>
+                        <div class="price">810 000 ₽</div>
+                        <div class="product-card__footer">
+                          <div class="product-card__text">
+                            <p class="color-blue">Скоро в продаже
+                              </p>
+                              <p>Как новые</p>
+                          </div>
+                          <div class="product-card__info">
+                            <div class="icon-info"><img src="img/info-icon1.png" alt=""></div>
+                            <div class="icon-info"><img src="img/info-icon2.png" alt=""></div>
+                            <div class="icon-info"><img src="img/info-icon8.png" alt=""></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-25 mb-30">
+                    <div class="product-card product-card-shop">
+                      <a href="product.html" class="product-card__img"><img src="img/product1.jpg" alt=""></a>
+                      <div class="product-card__body">
+                        <a href="product.html" class="product-card__name">Chronoswiss
+                          Opus Skeleton</a>
+                        <div class="price">810 000 ₽</div>
+                        <div class="product-card__footer">
+                          <div class="product-card__text">
+                            <p class="color-blue">В наличии
+                              </p>
+                              <p>Как новые</p>
+                          </div>
+                          <div class="product-card__info">
+                            <div class="icon-info"><img src="img/info-icon1.png" alt=""></div>
+                            <div class="icon-info"><img src="img/info-icon2.png" alt=""></div>
+                            <div class="icon-info"><img src="img/info-icon4.png" alt=""></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-25 mb-30">
+                    <div class="product-card product-card-shop">
+                      <a href="product.html" class="product-card__img"><img src="img/product1.jpg" alt=""></a>
+                      <div class="product-card__body">
+                        <a href="product.html" class="product-card__name">Chronoswiss
+                          Opus Skeleton</a>
+                        <div class="price">810 000 ₽</div>
+                        <div class="product-card__footer">
+                          <div class="product-card__text">
+                            <p class="color-blue">Скоро в продаже
+                              </p>
+                              <p>Как новые</p>
+                          </div>
+                          <div class="product-card__info">
+                            <div class="icon-info"><img src="img/info-icon5.png" alt=""></div>
+                            <div class="icon-info"><img src="img/info-icon2.png" alt=""></div>
+                            <div class="icon-info"><img src="img/info-icon6.png" alt=""></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-25 mb-30">
+                    <div class="product-card product-card-shop">
+                      <a href="product.html" class="product-card__img"><img src="img/product1.jpg" alt=""></a>
+                      <div class="product-card__body">
+                        <a href="product.html" class="product-card__name">Chronoswiss
+                          Opus Skeleton</a>
+                        <div class="price">810 000 ₽</div>
+                        <div class="product-card__footer">
+                          <div class="product-card__text">
+                            <p class="color-blue">Скоро в продаже
+                              </p>
+                              <p>Как новые</p>
+                          </div>
+                          <div class="product-card__info">
+                            <div class="icon-info"><img src="img/info-icon1.png" alt=""></div>
+                            <div class="icon-info"><img src="img/info-icon2.png" alt=""></div>
+                            <div class="icon-info"><img src="img/info-icon7.png" alt=""></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-25 mb-30">
+                    <div class="product-card product-card-shop">
+                      <a href="product.html" class="product-card__img"><img src="img/product1.jpg" alt=""></a>
+                      <div class="product-card__body">
+                        <a href="product.html" class="product-card__name">Chronoswiss
+                          Opus Skeleton</a>
+                        <div class="price">810 000 ₽</div>
+                        <div class="product-card__footer">
+                          <div class="product-card__text">
+                            <p class="color-blue">Скоро в продаже
+                              </p>
+                              <p>Как новые</p>
+                          </div>
+                          <div class="product-card__info">
+                            <div class="icon-info"><img src="img/info-icon1.png" alt=""></div>
+                            <div class="icon-info"><img src="img/info-icon2.png" alt=""></div>
+                            <div class="icon-info"><img src="img/info-icon8.png" alt=""></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-25 mb-30">
+                    <div class="product-card product-card-shop">
+                      <a href="product.html" class="product-card__img"><img src="img/product1.jpg" alt=""></a>
+                      <div class="product-card__body">
+                        <a href="product.html" class="product-card__name">Chronoswiss
+                          Opus Skeleton</a>
+                        <div class="price">810 000 ₽</div>
+                        <div class="product-card__footer">
+                          <div class="product-card__text">
+                            <p class="color-blue">В наличии
+                              </p>
+                              <p>Как новые</p>
+                          </div>
+                          <div class="product-card__info">
+                            <div class="icon-info"><img src="img/info-icon1.png" alt=""></div>
+                            <div class="icon-info"><img src="img/info-icon2.png" alt=""></div>
+                            <div class="icon-info"><img src="img/info-icon4.png" alt=""></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-25 mb-30">
+                    <div class="product-card product-card-shop">
+                      <a href="product.html" class="product-card__img"><img src="img/product1.jpg" alt=""></a>
+                      <div class="product-card__body">
+                        <a href="product.html" class="product-card__name">Chronoswiss
+                          Opus Skeleton</a>
+                        <div class="price">810 000 ₽</div>
+                        <div class="product-card__footer">
+                          <div class="product-card__text">
+                            <p class="color-blue">Скоро в продаже
+                              </p>
+                              <p>Как новые</p>
+                          </div>
+                          <div class="product-card__info">
+                            <div class="icon-info"><img src="img/info-icon5.png" alt=""></div>
+                            <div class="icon-info"><img src="img/info-icon2.png" alt=""></div>
+                            <div class="icon-info"><img src="img/info-icon6.png" alt=""></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-25 mb-30">
+                    <div class="product-card product-card-shop">
+                      <a href="product.html" class="product-card__img"><img src="img/product1.jpg" alt=""></a>
+                      <div class="product-card__body">
+                        <a href="product.html" class="product-card__name">Chronoswiss
+                          Opus Skeleton</a>
+                        <div class="price">810 000 ₽</div>
+                        <div class="product-card__footer">
+                          <div class="product-card__text">
+                            <p class="color-blue">Скоро в продаже
+                              </p>
+                              <p>Как новые</p>
+                          </div>
+                          <div class="product-card__info">
+                            <div class="icon-info"><img src="img/info-icon1.png" alt=""></div>
+                            <div class="icon-info"><img src="img/info-icon2.png" alt=""></div>
+                            <div class="icon-info"><img src="img/info-icon7.png" alt=""></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-25 mb-30">
+                    <div class="product-card product-card-shop">
+                      <a href="product.html" class="product-card__img"><img src="img/product1.jpg" alt=""></a>
+                      <div class="product-card__body">
+                        <a href="product.html" class="product-card__name">Chronoswiss
+                          Opus Skeleton</a>
+                        <div class="price">810 000 ₽</div>
+                        <div class="product-card__footer">
+                          <div class="product-card__text">
+                            <p class="color-blue">Скоро в продаже
+                              </p>
+                              <p>Как новые</p>
+                          </div>
+                          <div class="product-card__info">
+                            <div class="icon-info"><img src="img/info-icon1.png" alt=""></div>
+                            <div class="icon-info"><img src="img/info-icon2.png" alt=""></div>
+                            <div class="icon-info"><img src="img/info-icon8.png" alt=""></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <nav class="nav-pagination">
+                <ul class="pagination my-ul">
+                  <li><a href="shop.html" class="active">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">></a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="brands-section brands-section2 m-100">
+      <div class="container">
+        <div class="w-100">
+          <div class="row row-brands">
+            <div class="col-16 mb-5"><a href="#" class="brand-item"><img src="img/Anonimo.jpg" alt=""></a></div>
+            <div class="col-16 mb-5"><a href="#" class="brand-item"><img src="img/Boucheron.jpg" alt=""></a></div>
+            <div class="col-16 mb-5"><a href="#" class="brand-item"><img src="img/Bulgari.jpg" alt=""></a></div>
+            <div class="col-16 mb-5"><a href="#" class="brand-item"><img src="img/Chaumet.jpg" alt=""></a></div>
+            <div class="col-16 mb-5"><a href="#" class="brand-item"><img src="img/Cuervo-y-Sobrinos.jpg" alt=""></a>
+            </div>
+            <div class="col-16 mb-5"><a href="#" class="brand-item"><img src="img/Dior.jpg" alt=""></a></div>
+            <div class="col-16 mb-5"><a href="#" class="brand-item"><img src="img/F.P.Journe.jpg" alt=""></a></div>
+            <div class="col-16 mb-5"><a href="#" class="brand-item"><img src="img/Gerald-Genta.jpg" alt=""></a></div>
+            <div class="col-16 mb-5"><a href="#" class="brand-item"><img src="img/Hermes.jpg" alt=""></a></div>
+            <div class="col-16 mb-5"><a href="#" class="brand-item"><img src="img/HYT.jpg" alt=""></a></div>
+            <div class="col-16 mb-5"><a href="#" class="brand-item"><img src="img/IceLink.jpg" alt=""></a></div>
+            <div class="col-16 mb-5"><a href="#" class="brand-item"><img src="img/Jacob&Co.jpg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <section class="news-product m-100">
+      <div class="container">
+        <div class="title-wrapper">
+          <h2>Новые поступления</h2>
+          <div class="slider-nav product-slider__nav"></div>
+        </div>
+
+      </div>
+      <div class="product-slider">
+        <div class="slide">
+          <div class="product-card">
+            <a href="product.html" class="product-card__img"><img src="img/product1.jpg" alt=""></a>
+            <div class="product-card__body">
+              <a href="product.html" class="product-card__name">Chronoswiss
+                Opus Skeleton</a>
+              <div class="price">810 000 ₽</div>
+              <div class="product-card__info">
+                <div class="icon-info"><img src="img/info-icon1.png" alt=""></div>
+                <div class="icon-info"><img src="img/info-icon2.png" alt=""></div>
+                <div class="icon-info"><img src="img/info-icon3.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="product-card">
+            <a href="product.html" class="product-card__img"><img src="img/product1.jpg" alt=""></a>
+            <div class="product-card__body">
+              <a href="product.html" class="product-card__name">Chronoswiss
+                Opus Skeleton</a>
+              <div class="price">810 000 ₽</div>
+              <div class="product-card__info">
+                <div class="icon-info"><img src="img/info-icon1.png" alt=""></div>
+                <div class="icon-info"><img src="img/info-icon2.png" alt=""></div>
+                <div class="icon-info"><img src="img/info-icon3.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="product-card">
+            <a href="product.html" class="product-card__img"><img src="img/product1.jpg" alt=""></a>
+            <div class="product-card__body">
+              <a href="product.html" class="product-card__name">Chronoswiss
+                Opus Skeleton</a>
+              <div class="price">810 000 ₽</div>
+              <div class="product-card__info">
+                <div class="icon-info"><img src="img/info-icon1.png" alt=""></div>
+                <div class="icon-info"><img src="img/info-icon2.png" alt=""></div>
+                <div class="icon-info"><img src="img/info-icon3.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="product-card">
+            <a href="product.html" class="product-card__img"><img src="img/product1.jpg" alt=""></a>
+            <div class="product-card__body">
+              <a href="product.html" class="product-card__name">Chronoswiss
+                Opus Skeleton</a>
+              <div class="price">810 000 ₽</div>
+              <div class="product-card__info">
+                <div class="icon-info"><img src="img/info-icon1.png" alt=""></div>
+                <div class="icon-info"><img src="img/info-icon2.png" alt=""></div>
+                <div class="icon-info"><img src="img/info-icon3.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="product-card">
+            <a href="product.html" class="product-card__img"><img src="img/product1.jpg" alt=""></a>
+            <div class="product-card__body">
+              <a href="product.html" class="product-card__name">Chronoswiss
+                Opus Skeleton</a>
+              <div class="price">810 000 ₽</div>
+              <div class="product-card__info">
+                <div class="icon-info"><img src="img/info-icon1.png" alt=""></div>
+                <div class="icon-info"><img src="img/info-icon2.png" alt=""></div>
+                <div class="icon-info"><img src="img/info-icon3.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="product-card">
+            <a href="product.html" class="product-card__img"><img src="img/product1.jpg" alt=""></a>
+            <div class="product-card__body">
+              <a href="product.html" class="product-card__name">Chronoswiss
+                Opus Skeleton</a>
+              <div class="price">810 000 ₽</div>
+              <div class="product-card__info">
+                <div class="icon-info"><img src="img/info-icon1.png" alt=""></div>
+                <div class="icon-info"><img src="img/info-icon2.png" alt=""></div>
+                <div class="icon-info"><img src="img/info-icon3.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="product-card">
+            <a href="product.html" class="product-card__img"><img src="img/product1.jpg" alt=""></a>
+            <div class="product-card__body">
+              <a href="product.html" class="product-card__name">Chronoswiss
+                Opus Skeleton</a>
+              <div class="price">810 000 ₽</div>
+              <div class="product-card__info">
+                <div class="icon-info"><img src="img/info-icon1.png" alt=""></div>
+                <div class="icon-info"><img src="img/info-icon2.png" alt=""></div>
+                <div class="icon-info"><img src="img/info-icon3.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="product-card">
+            <a href="product.html" class="product-card__img"><img src="img/product1.jpg" alt=""></a>
+            <div class="product-card__body">
+              <a href="product.html" class="product-card__name">Chronoswiss
+                Opus Skeleton</a>
+              <div class="price">810 000 ₽</div>
+              <div class="product-card__info">
+                <div class="icon-info"><img src="img/info-icon1.png" alt=""></div>
+                <div class="icon-info"><img src="img/info-icon2.png" alt=""></div>
+                <div class="icon-info"><img src="img/info-icon3.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="product-card">
+            <a href="product.html" class="product-card__img"><img src="img/product1.jpg" alt=""></a>
+            <div class="product-card__body">
+              <a href="product.html" class="product-card__name">Chronoswiss
+                Opus Skeleton</a>
+              <div class="price">810 000 ₽</div>
+              <div class="product-card__info">
+                <div class="icon-info"><img src="img/info-icon1.png" alt=""></div>
+                <div class="icon-info"><img src="img/info-icon2.png" alt=""></div>
+                <div class="icon-info"><img src="img/info-icon3.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="product-card">
+            <a href="product.html" class="product-card__img"><img src="img/product1.jpg" alt=""></a>
+            <div class="product-card__body">
+              <a href="product.html" class="product-card__name">Chronoswiss
+                Opus Skeleton</a>
+              <div class="price">810 000 ₽</div>
+              <div class="product-card__info">
+                <div class="icon-info"><img src="img/info-icon1.png" alt=""></div>
+                <div class="icon-info"><img src="img/info-icon2.png" alt=""></div>
+                <div class="icon-info"><img src="img/info-icon3.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="product-card">
+            <a href="product.html" class="product-card__img"><img src="img/product1.jpg" alt=""></a>
+            <div class="product-card__body">
+              <a href="product.html" class="product-card__name">Chronoswiss
+                Opus Skeleton</a>
+              <div class="price">810 000 ₽</div>
+              <div class="product-card__info">
+                <div class="icon-info"><img src="img/info-icon1.png" alt=""></div>
+                <div class="icon-info"><img src="img/info-icon2.png" alt=""></div>
+                <div class="icon-info"><img src="img/info-icon3.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="product-card">
+            <a href="product.html" class="product-card__img"><img src="img/product1.jpg" alt=""></a>
+            <div class="product-card__body">
+              <a href="product.html" class="product-card__name">Chronoswiss
+                Opus Skeleton</a>
+              <div class="price">810 000 ₽</div>
+              <div class="product-card__info">
+                <div class="icon-info"><img src="img/info-icon1.png" alt=""></div>
+                <div class="icon-info"><img src="img/info-icon2.png" alt=""></div>
+                <div class="icon-info"><img src="img/info-icon3.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-top">
+        <div class="container">
+          <div class="qr-wrapper">
+            <div class="qr-box">
+              <p>Мы в Telegram</p>
+              <img src="img/qr1.jpg" alt="">
+            </div>
+            <div class="qr-box">
+              <p>Мы в WhatsApp </p>
+              <img src="img/qr2.jpg" alt="">
+            </div>
+          </div>
+          <div class="footer-menu">
+            <ul class="footer-menu-list my-ul">
+              <li><a href="catalog.html">Швейцарские часы</a></li>
+              <li><a href="catalog.html">Ювелирные украшения</a></li>
+              <li><a href="catalog.html">Аксессуары</a></li>
+              <li><a href="catalog.html">Настольные часы</a></li>
+              <li><a href="repair-watch.html">Ремонт швейцарских часов</a></li>
+            </ul>
+            <ul class="footer-menu-list my-ul">
+              <li><a href="rating-hours.html">Оценка часов</a></li>
+              <li><a href="sell-accessories.html">Продать аксессуары</a></li>
+              <li><a href="sell-watches.html">Продать швейцарские часы</a></li>
+              <li><a href="sell-jewelry.html">Продать ювелирные изделия</a></li>
+              <li><a href="about.html">О часовом центре </a></li>
+            </ul>
+          </div>
+          <div class="btn-group-messengers">
+            <a href="#" class="btn-messenger" target="_blank"><img src="img/WhatsApp.png" alt=""></a>
+            <a href="#" class="btn-messenger" target="_blank"><img src="img/Telegram.png" alt=""></a>
+            <a href="#" class="btn-messenger" target="_blank"><img src="img/Viber.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="box-left">
+            <div class="address">
+              <p><strong>Адрес:</strong> Москва, Пресненский вал, 5</p>
+            </div>
+            <p>ИП Кулиев Р.Ю.,<br>
+              ИНН: 771674574720, ОГРН: 321774600656730</p>
+            <a href="politics.html" class="link color-black" target="_blank">Политика конфиденциальности</a>
+          </div>
+
+          <div class="box-right">
+            <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+            <div class="box-text">
+              <p>Наш часовой центр предлагает самые комфортные условия сотрудничества.</p>
+              <p>Мы внимательно и быстро произведем оценку изделия, предложив максимальную стоимость.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div class="fixed-messangers">
+    <a href="#" target="_blank" class="fixed-messanger-btn phone-btn"><img src="img/phone.png" alt=""></a>
+    <a href="#" target="_blank" class="fixed-messanger-btn whatsapp-btn"><img src="img/whatsapp-icon.png" alt=""></a>
+    <a href="#" target="_blank" class="fixed-messanger-btn tg-btn"><img src="img/tg-icon.png" alt=""></a>
+  </div>
+
+  <!-- add plugins js-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/jquery.ui.touch-punch.min.js"></script>
+  <!-- add plugins js end-->
+
+  <script src="js/common.js"></script>
+
+</body>
+
+</html>
