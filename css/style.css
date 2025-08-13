@@ -700,8 +700,11 @@ h3, .h3 {
 .page.color-white h1, .page.color-white h3 {
   color: #fff;
 }
-.page.color-white .breadcrumb a {
+.page.color-white .breadcrumb {
   color: #fff;
+}
+.page.color-white .breadcrumb a {
+  color: #ccc;
 }
 .page.color-white .breadcrumb a:hover {
   color: #546b7b;
@@ -721,6 +724,7 @@ h3, .h3 {
   flex-wrap: wrap;
   width: 100%;
   font-size: 16px;
+  color: #000;
 }
 .breadcrumb li a {
   display: flex;
@@ -731,7 +735,7 @@ h3, .h3 {
   color: #546b7b;
 }
 .breadcrumb li a::after {
-  content: ">";
+  content: "/";
   display: inline-block;
   margin: 0 6px;
 }

@@ -179,6 +179,8 @@
   &__body
     height: calc( 100% - 292px )
     padding: 10px 10px 15px
+    display: flex
+    flex-direction: column
   &__name
     font-size: 18px
     font-weight: 500
@@ -188,15 +190,37 @@
       color: $blue
   .price
     margin: 15px auto 10px
-    font-size: 22px
+    font-size: 21px
     font-weight: 500
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-wrap: wrap
   &__info
     display: flex
     align-items: flex-end
     justify-content: center
     width: 100%
+    margin: auto 0 0
   .icon-info
     margin: 0 24px 0 0
+    width: 36px
+    height: 36px
+    min-width: 36px
+    border-radius: 50%
+    border: 1.5px solid $blue-light
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    text-align: center
+    color: $blue-light
+    font-weight: 600
+    font-size: 10px
+    span
+      margin: 3px auto 0
+      &:last-child
+        margin: 0 auto
     &:last-child
       margin: 0
   &__footer
@@ -216,6 +240,11 @@
       margin: 0 10px 0 0
       &:last-child
         margin: 0  
+
+.old-price
+  text-decoration: line-through
+  margin: 0 10px 0 0
+  color: red 
 
 .product-card-shop
   max-width: none        
@@ -245,6 +274,12 @@
   border-right: 1px solid $blue
   .product-card
     border-right: none
+  .slick-track
+    display: flex
+    align-items: stretch  
+  .slick-slide
+    height: auto
+
 
 // brands section
 .brands-section
